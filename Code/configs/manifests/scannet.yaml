@@ -1,0 +1,16 @@
+dataset: scannet
+root: ${W3D_DATA_ROOT}
+scene: scene0000_00
+K: calibration/K_rgb_rectified.txt
+width: 640
+height: 480
+undistorted_pinhole: true
+depth_registered_to_rgb: true
+provenance: REQUIRED_sensor_export_pose_frame_and_RGB_depth_registration
+pose_frame: color
+depth_shift: 1000.0
+frame_ids: [0, 10, 20, 30, 40, 50]
+rgb_pattern: color/{id}.jpg
+depth_pattern: registered_depth/{id}.png
+pose_pattern: pose/{id}.txt
+

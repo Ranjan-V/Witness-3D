@@ -1,0 +1,602 @@
+{
+  "schema_version": 1,
+  "box": {
+    "lower": [
+      "-3",
+      "-3",
+      "3602879701896397/36028797018963968"
+    ],
+    "upper": [
+      "3",
+      "3",
+      "10"
+    ]
+  },
+  "cameras": [
+    {
+      "id": "0",
+      "K": [
+        [
+          300.0,
+          0.0,
+          319.5
+        ],
+        [
+          0.0,
+          300.0,
+          239.5
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "R": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "t": [
+        0.3,
+        0.0,
+        0.0
+      ],
+      "width": 640,
+      "height": 480,
+      "undistorted": true
+    },
+    {
+      "id": "1",
+      "K": [
+        [
+          300.0,
+          0.0,
+          319.5
+        ],
+        [
+          0.0,
+          300.0,
+          239.5
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "R": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "t": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "width": 640,
+      "height": 480,
+      "undistorted": true
+    },
+    {
+      "id": "2",
+      "K": [
+        [
+          300.0,
+          0.0,
+          319.5
+        ],
+        [
+          0.0,
+          300.0,
+          239.5
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "R": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "t": [
+        -0.3,
+        0.0,
+        0.0
+      ],
+      "width": 640,
+      "height": 480,
+      "undistorted": true
+    }
+  ],
+  "tracks": [
+    {
+      "id": "0",
+      "observations": [
+        {
+          "id": "0:0",
+          "camera_id": "0",
+          "uv": [
+            323.94431290194655,
+            211.6967146509922
+          ],
+          "pixel_radius": [
+            0.5,
+            0.5
+          ],
+          "depth": 4.5,
+          "half_width": 0.09,
+          "confidence": 1.0,
+          "visible": true,
+          "depth_convention": "optical_z"
+        },
+        {
+          "id": "0:1",
+          "camera_id": "1",
+          "uv": [
+            292.6154114275635,
+            211.22374849455545
+          ],
+          "pixel_radius": [
+            0.5,
+            0.5
+          ],
+          "depth": 3.0,
+          "half_width": 0.06,
+          "confidence": 1.0,
+          "visible": true,
+          "depth_convention": "optical_z"
+        },
+        {
+          "id": "0:2",
+          "camera_id": "2",
+          "uv": [
+            264.3262463528713,
+            212.14224321522883
+          ],
+          "pixel_radius": [
+            0.5,
+            0.5
+          ],
+          "depth": 3.0,
+          "half_width": 0.06,
+          "confidence": 1.0,
+          "visible": true,
+          "depth_convention": "optical_z"
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "observations": [
+        {
+          "id": "1:0",
+          "camera_id": "0",
+          "uv": [
+            314.8603205579131,
+            263.46610838304593
+          ],
+          "pixel_radius": [
+            0.5,
+            0.5
+          ],
+          "depth": 6.75,
+          "half_width": 0.135,
+          "confidence": 1.0,
+          "visible": true,
+          "depth_convention": "optical_z"
+        },
+        {
+          "id": "1:1",
+          "camera_id": "1",
+          "uv": [
+            294.9821298978245,
+            264.3021375790605
+          ],
+          "pixel_radius": [
+            0.5,
+            0.5
+          ],
+          "depth": 4.5,
+          "half_width": 0.09,
+          "confidence": 1.0,
+          "visible": true,
+          "depth_convention": "optical_z"
+        },
+        {
+          "id": "1:2",
+          "camera_id": "2",
+          "uv": [
+            274.57882731855364,
+            264.00333876433984
+          ],
+          "pixel_radius": [
+            0.5,
+            0.5
+          ],
+          "depth": 4.5,
+          "half_width": 0.09,
+          "confidence": 1.0,
+          "visible": true,
+          "depth_convention": "optical_z"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "observations": [
+        {
+          "id": "2:0",
+          "camera_id": "0",
+          "uv": [
+            375.64563040352033,
+            201.33617530646242
+          ],
+          "pixel_radius": [
+            0.5,
+            0.5
+          ],
+          "depth": 3.0,
+          "half_width": 0.06,
+          "confidence": 1.0,
+          "visible": true,
+          "depth_convention": "optical_z"
+        },
+        {
+          "id": "2:1",
+          "camera_id": "1",
+          "uv": [
+            345.3916243554779,
+            200.49838118304442
+          ],
+          "pixel_radius": [
+            0.5,
+            0.5
+          ],
+          "depth": 4.5,
+          "half_width": 0.09,
+          "confidence": 1.0,
+          "visible": true,
+          "depth_convention": "optical_z"
+        },
+        {
+          "id": "2:2",
+          "camera_id": "2",
+          "uv": [
+            315.49015489756977,
+            200.88949885704898
+          ],
+          "pixel_radius": [
+            0.5,
+            0.5
+          ],
+          "depth": 4.5,
+          "half_width": 0.09,
+          "confidence": 1.0,
+          "visible": true,
+          "depth_convention": "optical_z"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "observations": [
+        {
+          "id": "3:0",
+          "camera_id": "0",
+          "uv": [
+            322.7002768438281,
+            237.86853907502714
+          ],
+          "pixel_radius": [
+            0.5,
+            0.5
+          ],
+          "depth": 6.75,
+          "half_width": 0.135,
+          "confidence": 1.0,
+          "visible": true,
+          "depth_convention": "optical_z"
+        },
+        {
+          "id": "3:1",
+          "camera_id": "1",
+          "uv": [
+            301.5955140735497,
+            237.72923978892004
+          ],
+          "pixel_radius": [
+            0.5,
+            0.5
+          ],
+          "depth": 4.5,
+          "half_width": 0.09,
+          "confidence": 1.0,
+          "visible": true,
+          "depth_convention": "optical_z"
+        },
+        {
+          "id": "3:2",
+          "camera_id": "2",
+          "uv": [
+            282.2910710633793,
+            236.8715153382072
+          ],
+          "pixel_radius": [
+            0.5,
+            0.5
+          ],
+          "depth": 4.5,
+          "half_width": 0.09,
+          "confidence": 1.0,
+          "visible": true,
+          "depth_convention": "optical_z"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "observations": [
+        {
+          "id": "4:0",
+          "camera_id": "0",
+          "uv": [
+            301.06784849013616,
+            243.4380741869448
+          ],
+          "pixel_radius": [
+            0.5,
+            0.5
+          ],
+          "depth": 4.5,
+          "half_width": 0.09,
+          "confidence": 1.0,
+          "visible": true,
+          "depth_convention": "optical_z"
+        },
+        {
+          "id": "4:1",
+          "camera_id": "1",
+          "uv": [
+            272.0901882782066,
+            243.93423330535785
+          ],
+          "pixel_radius": [
+            0.5,
+            0.5
+          ],
+          "depth": 4.5,
+          "half_width": 0.09,
+          "confidence": 1.0,
+          "visible": true,
+          "depth_convention": "optical_z"
+        },
+        {
+          "id": "4:2",
+          "camera_id": "2",
+          "uv": [
+            240.76269074971285,
+            244.5914264993376
+          ],
+          "pixel_radius": [
+            0.5,
+            0.5
+          ],
+          "depth": 3.0,
+          "half_width": 0.06,
+          "confidence": 1.0,
+          "visible": true,
+          "depth_convention": "optical_z"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "observations": [
+        {
+          "id": "5:0",
+          "camera_id": "0",
+          "uv": [
+            333.24989747835974,
+            264.24356544995015
+          ],
+          "pixel_radius": [
+            0.5,
+            0.5
+          ],
+          "depth": 6.75,
+          "half_width": 0.135,
+          "confidence": 1.0,
+          "visible": true,
+          "depth_convention": "optical_z"
+        },
+        {
+          "id": "5:1",
+          "camera_id": "1",
+          "uv": [
+            314.7684091699473,
+            263.708474950995
+          ],
+          "pixel_radius": [
+            0.5,
+            0.5
+          ],
+          "depth": 4.5,
+          "half_width": 0.09,
+          "confidence": 1.0,
+          "visible": true,
+          "depth_convention": "optical_z"
+        },
+        {
+          "id": "5:2",
+          "camera_id": "2",
+          "uv": [
+            293.1131900018629,
+            263.9454680421748
+          ],
+          "pixel_radius": [
+            0.5,
+            0.5
+          ],
+          "depth": 6.75,
+          "half_width": 0.135,
+          "confidence": 1.0,
+          "visible": true,
+          "depth_convention": "optical_z"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "observations": [
+        {
+          "id": "6:0",
+          "camera_id": "0",
+          "uv": [
+            303.3517543933469,
+            270.2508504447239
+          ],
+          "pixel_radius": [
+            0.5,
+            0.5
+          ],
+          "depth": 4.5,
+          "half_width": 0.09,
+          "confidence": 1.0,
+          "visible": true,
+          "depth_convention": "optical_z"
+        },
+        {
+          "id": "6:1",
+          "camera_id": "1",
+          "uv": [
+            272.284330132118,
+            269.33956976381603
+          ],
+          "pixel_radius": [
+            0.5,
+            0.5
+          ],
+          "depth": 3.0,
+          "half_width": 0.06,
+          "confidence": 1.0,
+          "visible": true,
+          "depth_convention": "optical_z"
+        },
+        {
+          "id": "6:2",
+          "camera_id": "2",
+          "uv": [
+            242.74391026604673,
+            269.41025839577384
+          ],
+          "pixel_radius": [
+            0.5,
+            0.5
+          ],
+          "depth": 4.5,
+          "half_width": 0.09,
+          "confidence": 1.0,
+          "visible": true,
+          "depth_convention": "optical_z"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "observations": [
+        {
+          "id": "7:0",
+          "camera_id": "0",
+          "uv": [
+            374.8859635517315,
+            255.01783043268384
+          ],
+          "pixel_radius": [
+            0.5,
+            0.5
+          ],
+          "depth": 4.5,
+          "half_width": 0.09,
+          "confidence": 1.0,
+          "visible": true,
+          "depth_convention": "optical_z"
+        },
+        {
+          "id": "7:1",
+          "camera_id": "1",
+          "uv": [
+            356.979920401521,
+            254.59015192816568
+          ],
+          "pixel_radius": [
+            0.5,
+            0.5
+          ],
+          "depth": 6.75,
+          "half_width": 0.135,
+          "confidence": 1.0,
+          "visible": true,
+          "depth_convention": "optical_z"
+        },
+        {
+          "id": "7:2",
+          "camera_id": "2",
+          "uv": [
+            335.01902795964395,
+            253.82672825711515
+          ],
+          "pixel_radius": [
+            0.5,
+            0.5
+          ],
+          "depth": 4.5,
+          "half_width": 0.09,
+          "confidence": 1.0,
+          "visible": true,
+          "depth_convention": "optical_z"
+        }
+      ]
+    }
+  ]
+}

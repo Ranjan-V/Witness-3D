@@ -1,0 +1,111 @@
+D:/CVPR/
+|-- Theory/
+|   |-- README.md
+|   |-- problem_statement.md
+|   |-- novelty_audit.md
+|   |-- related_work.md
+|   |-- assumptions.md
+|   |-- formal_model.md
+|   |-- algorithms.md
+|   |-- experimental_protocol.md
+|   |-- limitations_and_risks.md
+|   `-- open_questions.md
+|-- Math/
+|   |-- notation.tex
+|   |-- geometric_constraints.tex
+|   |-- witness_certificates.tex
+|   |-- repair_optimization.tex
+|   |-- theorems_and_proofs.tex
+|   |-- specification.md
+|   |-- complexity_analysis.md
+|   |-- proof_status_ledger.md
+|   |-- counterexamples.md
+|   |-- numerical_certification.md
+|   `-- audit.md
+|-- Code/
+|   |-- .gitignore
+|   |-- pyproject.toml
+|   |-- README.md
+|   |-- FILE_TREE.txt
+|   |-- configs/
+|   |   |-- synthetic_cpu.yaml
+|   |   |-- geometric_cpu.yaml
+|   |   |-- depth_cpu.yaml
+|   |   |-- depth_t4.yaml
+|   |   |-- depth_midas.yaml
+|   |   |-- extract.yaml
+|   |   |-- resources_cpu.yaml
+|   |   |-- resources_t4.yaml
+|   |   |-- resources_tpu.yaml
+|   |   |-- ablations_geometry.yaml
+|   |   |-- ablations_robustness.yaml
+|   |   |-- ablations_models_datasets.yaml
+|   |   `-- manifests/
+|   |       |-- tum.yaml
+|   |       |-- 7scenes.yaml
+|   |       |-- scannet.yaml
+|   |       `-- eth3d.yaml
+|   |-- src/witness3d/
+|   |   |-- __init__.py
+|   |   |-- __main__.py
+|   |   |-- exact.py
+|   |   |-- verify.py
+|   |   |-- geometry.py
+|   |   |-- observations.py
+|   |   |-- constraints.py
+|   |   |-- solver.py
+|   |   |-- witnesses.py
+|   |   |-- envelopes.py
+|   |   |-- repair.py
+|   |   |-- reconcile.py
+|   |   |-- graph.py
+|   |   |-- baselines.py
+|   |   |-- synthetic.py
+|   |   |-- models.py
+|   |   |-- calibration.py
+|   |   |-- matching.py
+|   |   |-- datasets.py
+|   |   |-- metrics.py
+|   |   |-- profiling.py
+|   |   |-- io.py
+|   |   |-- pipeline.py
+|   |   |-- experiments.py
+|   |   |-- plotting.py
+|   |   `-- cli.py
+|   |-- scripts/
+|   |   |-- verify_certificate.py
+|   |   |-- extract_certificates.py
+|   |   |-- plot_ablation.py
+|   |   |-- future_checks.ps1
+|   |   `-- kaggle_sequence.sh
+|   |-- tests/
+|   |   |-- conftest.py
+|   |   |-- test_geometry.py
+|   |   |-- test_exact_certificates.py
+|   |   |-- test_constraints.py
+|   |   |-- test_solver.py
+|   |   |-- test_envelopes_and_repair.py
+|   |   |-- test_witnesses.py
+|   |   |-- test_synthetic_and_baselines.py
+|   |   |-- test_global.py
+|   |   |-- test_datasets.py
+|   |   |-- test_metrics.py
+|   |   |-- test_matching.py
+|   |   |-- test_calibration_and_models.py
+|   |   |-- test_io_and_integration.py
+|   |   `-- test_pipeline_contracts.py
+|   `-- docs/
+|       |-- delivery_report.md
+|       |-- implementation_status.md
+|       |-- static_audit.md
+|       |-- tests_written.md
+|       |-- schemas.md
+|       |-- models.md
+|       |-- datasets.md
+|       |-- resources.md
+|       |-- evaluation.md
+|       `-- kaggle.md
+`-- Paper/                       UNCHANGED (empty at initial/final inventory)
+
+No notebooks were necessary. No result, dataset, checkpoint, cache, compiled
+document or generated model output was created.

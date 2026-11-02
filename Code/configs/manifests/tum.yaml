@@ -1,0 +1,16 @@
+dataset: tum
+root: ${W3D_DATA_ROOT}
+scene: tum_static_pilot
+K: calibration/K_rgb_rectified.txt
+width: 640
+height: 480
+undistorted_pinhole: true
+depth_registered_to_rgb: true
+provenance: REQUIRED_replace_with_rectification_and_registration_procedure
+rgb_list: rgb.txt
+depth_list: depth.txt
+poses: groundtruth.txt
+stride: 10
+max_dt: 0.02
+max_pose_dt: 0.02
+

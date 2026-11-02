@@ -1,0 +1,8 @@
+{
+  "state": "ABSTAINED",
+  "depths": {},
+  "points": null,
+  "history": [],
+  "reason": "A pixel polytope lacks a checked feasible point",
+  "run_signature": "acbac1aeb604d82f9392bd1d6efea15e6e8791de9ebecc7c642ecd8a1756382e"
+}

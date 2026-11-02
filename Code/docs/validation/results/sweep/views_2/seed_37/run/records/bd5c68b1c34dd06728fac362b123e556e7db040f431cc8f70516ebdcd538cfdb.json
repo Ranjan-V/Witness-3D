@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "run_signature": "f116353035c13d222b059d4ccf5a43c5f2482d8bfe000c7100719c8da0530e8c",
+  "track": "3",
+  "method": "global",
+  "original_depths": {
+    "3:0": 6.75,
+    "3:1": 6.75
+  },
+  "depths": {
+    "3:0": 4.7006092495947,
+    "3:1": 4.7006092495947
+  },
+  "state": "CONVERGED_NUMERICALLY",
+  "status_before": "VERIFIED_CONTRADICTION",
+  "status_after": "VERIFIED_FEASIBLE",
+  "detected": [],
+  "edit_ids": [
+    "3:0",
+    "3:1"
+  ],
+  "artifacts": [],
+  "geometry_residual_flags": [],
+  "z_min": 0.01,
+  "reason": "Step tolerance; no exact optimality certificate",
+  "runtime_scope": "first_record_in_block_computes_global_solve_others_read_cache",
+  "point": [
+    0.3742239027470426,
+    0.08897814459170485,
+    4.7006092495947
+  ],
+  "consistency": {
+    "reprojection_mean_px": 0.521383685805153,
+    "depth_inconsistency_m": 2.0493907504053004,
+    "invalid_projection_fraction": 0.0
+  },
+  "efficiency": {
+    "wall_seconds": 0.007894600013969466,
+    "cpu_seconds": 0.0,
+    "peak_rss_bytes_sampled": 87474176,
+    "rss_sampling_period_seconds": 0.02
+  },
+  "certificate_checks": []
+}

@@ -1,0 +1,5602 @@
+[
+  {
+    "mode": "generic_distractors",
+    "seed": 0,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          0
+        ],
+        "depth": 3.000000000000001
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          0
+        ],
+        "depth": 3.000000000000001
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          0
+        ],
+        "depth": 3.000000000000001
+      }
+    }
+  },
+  {
+    "mode": "generic_distractors",
+    "seed": 1,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          1
+        ],
+        "depth": 3.000000000000001
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          1
+        ],
+        "depth": 3.000000000000001
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          1
+        ],
+        "depth": 3.000000000000001
+      }
+    }
+  },
+  {
+    "mode": "generic_distractors",
+    "seed": 2,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          1
+        ],
+        "depth": 3.0
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          1
+        ],
+        "depth": 3.0
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          1
+        ],
+        "depth": 3.0
+      }
+    }
+  },
+  {
+    "mode": "generic_distractors",
+    "seed": 3,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          1
+        ],
+        "depth": 2.9999999999999987
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          1
+        ],
+        "depth": 2.9999999999999987
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          1
+        ],
+        "depth": 2.9999999999999987
+      }
+    }
+  },
+  {
+    "mode": "generic_distractors",
+    "seed": 4,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          0,
+          1
+        ],
+        "depth": 3.0
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          0,
+          1
+        ],
+        "depth": 3.0
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          0,
+          1
+        ],
+        "depth": 3.0
+      }
+    }
+  },
+  {
+    "mode": "generic_distractors",
+    "seed": 5,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          0
+        ],
+        "depth": 3.0000000000000013
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          0
+        ],
+        "depth": 3.0000000000000013
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          0
+        ],
+        "depth": 3.0000000000000013
+      }
+    }
+  },
+  {
+    "mode": "generic_distractors",
+    "seed": 6,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          0
+        ],
+        "depth": 3.000000000000002
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          0
+        ],
+        "depth": 3.000000000000002
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          0
+        ],
+        "depth": 3.000000000000002
+      }
+    }
+  },
+  {
+    "mode": "generic_distractors",
+    "seed": 7,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          0
+        ],
+        "depth": 2.999999999999999
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          0
+        ],
+        "depth": 2.999999999999999
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          0
+        ],
+        "depth": 2.999999999999999
+      }
+    }
+  },
+  {
+    "mode": "generic_distractors",
+    "seed": 8,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          1,
+          1
+        ],
+        "depth": 3.0000000000000013
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          1,
+          1
+        ],
+        "depth": 3.0000000000000013
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          1,
+          1
+        ],
+        "depth": 3.0000000000000013
+      }
+    }
+  },
+  {
+    "mode": "generic_distractors",
+    "seed": 9,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          1
+        ],
+        "depth": 3.0000000000000018
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          1
+        ],
+        "depth": 3.0000000000000018
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          1
+        ],
+        "depth": 3.0000000000000018
+      }
+    }
+  },
+  {
+    "mode": "generic_distractors",
+    "seed": 10,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          0
+        ],
+        "depth": 2.9999999999999996
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          0
+        ],
+        "depth": 2.9999999999999996
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          0
+        ],
+        "depth": 2.9999999999999996
+      }
+    }
+  },
+  {
+    "mode": "generic_distractors",
+    "seed": 11,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          0,
+          1
+        ],
+        "depth": 3.0
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          0,
+          1
+        ],
+        "depth": 3.0
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          0,
+          1
+        ],
+        "depth": 3.0
+      }
+    }
+  },
+  {
+    "mode": "generic_distractors",
+    "seed": 12,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          1
+        ],
+        "depth": 3.0000000000000018
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          1
+        ],
+        "depth": 3.0000000000000018
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          1
+        ],
+        "depth": 3.0000000000000018
+      }
+    }
+  },
+  {
+    "mode": "generic_distractors",
+    "seed": 13,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          0
+        ],
+        "depth": 2.999999999999999
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          0
+        ],
+        "depth": 2.999999999999999
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          0
+        ],
+        "depth": 2.999999999999999
+      }
+    }
+  },
+  {
+    "mode": "generic_distractors",
+    "seed": 14,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          1,
+          0
+        ],
+        "depth": 3.0000000000000018
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          1,
+          0
+        ],
+        "depth": 3.0000000000000018
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          1,
+          0
+        ],
+        "depth": 3.0000000000000018
+      }
+    }
+  },
+  {
+    "mode": "generic_distractors",
+    "seed": 15,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          0
+        ],
+        "depth": 3.0
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          0
+        ],
+        "depth": 3.0
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          0
+        ],
+        "depth": 3.0
+      }
+    }
+  },
+  {
+    "mode": "generic_distractors",
+    "seed": 16,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          1,
+          0
+        ],
+        "depth": 2.9999999999999964
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          1,
+          0
+        ],
+        "depth": 2.9999999999999964
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          1,
+          0
+        ],
+        "depth": 2.9999999999999964
+      }
+    }
+  },
+  {
+    "mode": "generic_distractors",
+    "seed": 17,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          1,
+          0
+        ],
+        "depth": 3.000000000000003
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          1,
+          0
+        ],
+        "depth": 3.000000000000003
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          1,
+          0
+        ],
+        "depth": 3.000000000000003
+      }
+    }
+  },
+  {
+    "mode": "generic_distractors",
+    "seed": 18,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          0
+        ],
+        "depth": 3.000000000000003
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          0
+        ],
+        "depth": 3.000000000000003
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          0
+        ],
+        "depth": 3.000000000000003
+      }
+    }
+  },
+  {
+    "mode": "generic_distractors",
+    "seed": 19,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          1
+        ],
+        "depth": 2.999999999999996
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          1
+        ],
+        "depth": 2.999999999999996
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          1
+        ],
+        "depth": 2.999999999999996
+      }
+    }
+  },
+  {
+    "mode": "generic_distractors",
+    "seed": 20,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          0,
+          0
+        ],
+        "depth": 3.0
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          0,
+          0
+        ],
+        "depth": 3.0
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          0,
+          0
+        ],
+        "depth": 3.0
+      }
+    }
+  },
+  {
+    "mode": "generic_distractors",
+    "seed": 21,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          1,
+          1
+        ],
+        "depth": 3.000000000000002
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          1,
+          1
+        ],
+        "depth": 3.000000000000002
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          1,
+          1
+        ],
+        "depth": 3.000000000000002
+      }
+    }
+  },
+  {
+    "mode": "generic_distractors",
+    "seed": 22,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          1,
+          1
+        ],
+        "depth": 2.9999999999999973
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          1,
+          1
+        ],
+        "depth": 2.9999999999999973
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          1,
+          1
+        ],
+        "depth": 2.9999999999999973
+      }
+    }
+  },
+  {
+    "mode": "generic_distractors",
+    "seed": 23,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          0
+        ],
+        "depth": 3.0
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          0
+        ],
+        "depth": 3.0
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          0
+        ],
+        "depth": 3.0
+      }
+    }
+  },
+  {
+    "mode": "generic_distractors",
+    "seed": 24,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          1,
+          0
+        ],
+        "depth": 3.000000000000001
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          1,
+          0
+        ],
+        "depth": 3.000000000000001
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          1,
+          0
+        ],
+        "depth": 3.000000000000001
+      }
+    }
+  },
+  {
+    "mode": "generic_distractors",
+    "seed": 25,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          0
+        ],
+        "depth": 3.0000000000000004
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          0
+        ],
+        "depth": 3.0000000000000004
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          0
+        ],
+        "depth": 3.0000000000000004
+      }
+    }
+  },
+  {
+    "mode": "generic_distractors",
+    "seed": 26,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          0
+        ],
+        "depth": 3.000000000000001
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          0
+        ],
+        "depth": 3.000000000000001
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          0
+        ],
+        "depth": 3.000000000000001
+      }
+    }
+  },
+  {
+    "mode": "generic_distractors",
+    "seed": 27,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          1,
+          0
+        ],
+        "depth": 3.0000000000000027
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          1,
+          0
+        ],
+        "depth": 3.0000000000000027
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          1,
+          0
+        ],
+        "depth": 3.0000000000000027
+      }
+    }
+  },
+  {
+    "mode": "generic_distractors",
+    "seed": 28,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          1
+        ],
+        "depth": 2.9999999999999982
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          1
+        ],
+        "depth": 2.9999999999999982
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          1
+        ],
+        "depth": 2.9999999999999982
+      }
+    }
+  },
+  {
+    "mode": "generic_distractors",
+    "seed": 29,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          0
+        ],
+        "depth": 2.999999999999998
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          0
+        ],
+        "depth": 2.999999999999998
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          0
+        ],
+        "depth": 2.999999999999998
+      }
+    }
+  },
+  {
+    "mode": "generic_distractors",
+    "seed": 30,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          0,
+          1
+        ],
+        "depth": 3.000000000000002
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          0,
+          1
+        ],
+        "depth": 3.000000000000002
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          0,
+          1
+        ],
+        "depth": 3.000000000000002
+      }
+    }
+  },
+  {
+    "mode": "generic_distractors",
+    "seed": 31,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          0,
+          0
+        ],
+        "depth": 3.0000000000000036
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          0,
+          0
+        ],
+        "depth": 3.0000000000000036
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          0,
+          0
+        ],
+        "depth": 3.0000000000000036
+      }
+    }
+  },
+  {
+    "mode": "generic_distractors",
+    "seed": 32,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          0
+        ],
+        "depth": 3.0
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          0
+        ],
+        "depth": 3.0
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          0
+        ],
+        "depth": 3.0
+      }
+    }
+  },
+  {
+    "mode": "generic_distractors",
+    "seed": 33,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          1,
+          0
+        ],
+        "depth": 3.000000000000001
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          1,
+          0
+        ],
+        "depth": 3.000000000000001
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          1,
+          0
+        ],
+        "depth": 3.000000000000001
+      }
+    }
+  },
+  {
+    "mode": "generic_distractors",
+    "seed": 34,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          0,
+          1
+        ],
+        "depth": 3.0000000000000004
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          0,
+          1
+        ],
+        "depth": 3.0000000000000004
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          0,
+          1
+        ],
+        "depth": 3.0000000000000004
+      }
+    }
+  },
+  {
+    "mode": "generic_distractors",
+    "seed": 35,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          1,
+          0
+        ],
+        "depth": 3.0
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          1,
+          0
+        ],
+        "depth": 3.0
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          1,
+          0
+        ],
+        "depth": 3.0
+      }
+    }
+  },
+  {
+    "mode": "generic_distractors",
+    "seed": 36,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          0,
+          1
+        ],
+        "depth": 3.0
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          0,
+          1
+        ],
+        "depth": 3.0
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          0,
+          1
+        ],
+        "depth": 3.0
+      }
+    }
+  },
+  {
+    "mode": "generic_distractors",
+    "seed": 37,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          1,
+          0
+        ],
+        "depth": 2.9999999999999996
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          1,
+          0
+        ],
+        "depth": 2.9999999999999996
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          1,
+          0
+        ],
+        "depth": 2.9999999999999996
+      }
+    }
+  },
+  {
+    "mode": "generic_distractors",
+    "seed": 38,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          0
+        ],
+        "depth": 3.0000000000000027
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          0
+        ],
+        "depth": 3.0000000000000027
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          0
+        ],
+        "depth": 3.0000000000000027
+      }
+    }
+  },
+  {
+    "mode": "generic_distractors",
+    "seed": 39,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          0,
+          1
+        ],
+        "depth": 2.999999999999996
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          0,
+          1
+        ],
+        "depth": 2.999999999999996
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          0,
+          1
+        ],
+        "depth": 2.999999999999996
+      }
+    }
+  },
+  {
+    "mode": "coherent_decoy",
+    "seed": 0,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          0
+        ],
+        "depth": 3.000000000000001
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          0
+        ],
+        "depth": 3.000000000000001
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          0
+        ],
+        "depth": 3.000000000000001
+      }
+    }
+  },
+  {
+    "mode": "coherent_decoy",
+    "seed": 1,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          1
+        ],
+        "depth": 3.000000000000001
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          1
+        ],
+        "depth": 3.000000000000001
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          1
+        ],
+        "depth": 3.000000000000001
+      }
+    }
+  },
+  {
+    "mode": "coherent_decoy",
+    "seed": 2,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          1
+        ],
+        "depth": 3.0
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          1
+        ],
+        "depth": 3.0
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          1
+        ],
+        "depth": 3.0
+      }
+    }
+  },
+  {
+    "mode": "coherent_decoy",
+    "seed": 3,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          1
+        ],
+        "depth": 2.9999999999999987
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          1
+        ],
+        "depth": 2.9999999999999987
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          1
+        ],
+        "depth": 2.9999999999999987
+      }
+    }
+  },
+  {
+    "mode": "coherent_decoy",
+    "seed": 4,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          0,
+          1
+        ],
+        "depth": 3.0
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          0,
+          1
+        ],
+        "depth": 3.0
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          0,
+          1
+        ],
+        "depth": 3.0
+      }
+    }
+  },
+  {
+    "mode": "coherent_decoy",
+    "seed": 5,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          0
+        ],
+        "depth": 3.0000000000000013
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          0
+        ],
+        "depth": 3.0000000000000013
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          0
+        ],
+        "depth": 3.0000000000000013
+      }
+    }
+  },
+  {
+    "mode": "coherent_decoy",
+    "seed": 6,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          0
+        ],
+        "depth": 3.000000000000002
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          0
+        ],
+        "depth": 3.000000000000002
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          0
+        ],
+        "depth": 3.000000000000002
+      }
+    }
+  },
+  {
+    "mode": "coherent_decoy",
+    "seed": 7,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          0
+        ],
+        "depth": 2.999999999999999
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          0
+        ],
+        "depth": 2.999999999999999
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          0
+        ],
+        "depth": 2.999999999999999
+      }
+    }
+  },
+  {
+    "mode": "coherent_decoy",
+    "seed": 8,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          1,
+          1
+        ],
+        "depth": 3.0000000000000013
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          1,
+          1
+        ],
+        "depth": 3.0000000000000013
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          1,
+          1
+        ],
+        "depth": 3.0000000000000013
+      }
+    }
+  },
+  {
+    "mode": "coherent_decoy",
+    "seed": 9,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          1
+        ],
+        "depth": 3.0000000000000018
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          1
+        ],
+        "depth": 3.0000000000000018
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          1
+        ],
+        "depth": 3.0000000000000018
+      }
+    }
+  },
+  {
+    "mode": "coherent_decoy",
+    "seed": 10,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          0
+        ],
+        "depth": 2.9999999999999996
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          0
+        ],
+        "depth": 2.9999999999999996
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          0
+        ],
+        "depth": 2.9999999999999996
+      }
+    }
+  },
+  {
+    "mode": "coherent_decoy",
+    "seed": 11,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          0,
+          1
+        ],
+        "depth": 3.0
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          0,
+          1
+        ],
+        "depth": 3.0
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          0,
+          1
+        ],
+        "depth": 3.0
+      }
+    }
+  },
+  {
+    "mode": "coherent_decoy",
+    "seed": 12,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          1
+        ],
+        "depth": 3.0000000000000018
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          1
+        ],
+        "depth": 3.0000000000000018
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          1
+        ],
+        "depth": 3.0000000000000018
+      }
+    }
+  },
+  {
+    "mode": "coherent_decoy",
+    "seed": 13,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          0
+        ],
+        "depth": 2.999999999999999
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          0
+        ],
+        "depth": 2.999999999999999
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          0
+        ],
+        "depth": 2.999999999999999
+      }
+    }
+  },
+  {
+    "mode": "coherent_decoy",
+    "seed": 14,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          1,
+          0
+        ],
+        "depth": 3.0000000000000018
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          1,
+          0
+        ],
+        "depth": 3.0000000000000018
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          1,
+          0
+        ],
+        "depth": 3.0000000000000018
+      }
+    }
+  },
+  {
+    "mode": "coherent_decoy",
+    "seed": 15,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          0
+        ],
+        "depth": 3.0
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          0
+        ],
+        "depth": 3.0
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          0
+        ],
+        "depth": 3.0
+      }
+    }
+  },
+  {
+    "mode": "coherent_decoy",
+    "seed": 16,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          1,
+          0
+        ],
+        "depth": 2.9999999999999964
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          1,
+          0
+        ],
+        "depth": 2.9999999999999964
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          1,
+          0
+        ],
+        "depth": 2.9999999999999964
+      }
+    }
+  },
+  {
+    "mode": "coherent_decoy",
+    "seed": 17,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          1,
+          0
+        ],
+        "depth": 3.000000000000003
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          1,
+          0
+        ],
+        "depth": 3.000000000000003
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          1,
+          0
+        ],
+        "depth": 3.000000000000003
+      }
+    }
+  },
+  {
+    "mode": "coherent_decoy",
+    "seed": 18,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          0
+        ],
+        "depth": 3.000000000000003
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          0
+        ],
+        "depth": 3.000000000000003
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          0
+        ],
+        "depth": 3.000000000000003
+      }
+    }
+  },
+  {
+    "mode": "coherent_decoy",
+    "seed": 19,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          1
+        ],
+        "depth": 2.999999999999996
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          1
+        ],
+        "depth": 2.999999999999996
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          1
+        ],
+        "depth": 2.999999999999996
+      }
+    }
+  },
+  {
+    "mode": "coherent_decoy",
+    "seed": 20,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          0,
+          0
+        ],
+        "depth": 3.0
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          0,
+          0
+        ],
+        "depth": 3.0
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          0,
+          0
+        ],
+        "depth": 3.0
+      }
+    }
+  },
+  {
+    "mode": "coherent_decoy",
+    "seed": 21,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          1,
+          1
+        ],
+        "depth": 3.000000000000002
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          1,
+          1
+        ],
+        "depth": 3.000000000000002
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          1,
+          1
+        ],
+        "depth": 3.000000000000002
+      }
+    }
+  },
+  {
+    "mode": "coherent_decoy",
+    "seed": 22,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          1,
+          1
+        ],
+        "depth": 2.9999999999999973
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          1,
+          1
+        ],
+        "depth": 2.9999999999999973
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          1,
+          1
+        ],
+        "depth": 2.9999999999999973
+      }
+    }
+  },
+  {
+    "mode": "coherent_decoy",
+    "seed": 23,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          0
+        ],
+        "depth": 3.0
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          0
+        ],
+        "depth": 3.0
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          0
+        ],
+        "depth": 3.0
+      }
+    }
+  },
+  {
+    "mode": "coherent_decoy",
+    "seed": 24,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          1,
+          0
+        ],
+        "depth": 3.000000000000001
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          1,
+          0
+        ],
+        "depth": 3.000000000000001
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          1,
+          0
+        ],
+        "depth": 3.000000000000001
+      }
+    }
+  },
+  {
+    "mode": "coherent_decoy",
+    "seed": 25,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          0
+        ],
+        "depth": 3.0000000000000004
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          0
+        ],
+        "depth": 3.0000000000000004
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          0
+        ],
+        "depth": 3.0000000000000004
+      }
+    }
+  },
+  {
+    "mode": "coherent_decoy",
+    "seed": 26,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          0
+        ],
+        "depth": 3.000000000000001
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          0
+        ],
+        "depth": 3.000000000000001
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          0
+        ],
+        "depth": 3.000000000000001
+      }
+    }
+  },
+  {
+    "mode": "coherent_decoy",
+    "seed": 27,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          1,
+          0
+        ],
+        "depth": 3.0000000000000027
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          1,
+          0
+        ],
+        "depth": 3.0000000000000027
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          1,
+          0
+        ],
+        "depth": 3.0000000000000027
+      }
+    }
+  },
+  {
+    "mode": "coherent_decoy",
+    "seed": 28,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          1
+        ],
+        "depth": 2.9999999999999982
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          1
+        ],
+        "depth": 2.9999999999999982
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          1
+        ],
+        "depth": 2.9999999999999982
+      }
+    }
+  },
+  {
+    "mode": "coherent_decoy",
+    "seed": 29,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          0
+        ],
+        "depth": 2.999999999999998
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          0
+        ],
+        "depth": 2.999999999999998
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          0
+        ],
+        "depth": 2.999999999999998
+      }
+    }
+  },
+  {
+    "mode": "coherent_decoy",
+    "seed": 30,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          0,
+          1
+        ],
+        "depth": 3.000000000000002
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          0,
+          1
+        ],
+        "depth": 3.000000000000002
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          0,
+          1
+        ],
+        "depth": 3.000000000000002
+      }
+    }
+  },
+  {
+    "mode": "coherent_decoy",
+    "seed": 31,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          0,
+          0
+        ],
+        "depth": 3.0000000000000036
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          0,
+          0
+        ],
+        "depth": 3.0000000000000036
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          0,
+          0
+        ],
+        "depth": 3.0000000000000036
+      }
+    }
+  },
+  {
+    "mode": "coherent_decoy",
+    "seed": 32,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          0
+        ],
+        "depth": 3.0
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          0
+        ],
+        "depth": 3.0
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          0
+        ],
+        "depth": 3.0
+      }
+    }
+  },
+  {
+    "mode": "coherent_decoy",
+    "seed": 33,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          1,
+          0
+        ],
+        "depth": 3.000000000000001
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          1,
+          0
+        ],
+        "depth": 3.000000000000001
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          1,
+          0
+        ],
+        "depth": 3.000000000000001
+      }
+    }
+  },
+  {
+    "mode": "coherent_decoy",
+    "seed": 34,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          0,
+          1
+        ],
+        "depth": 3.0000000000000004
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          0,
+          1
+        ],
+        "depth": 3.0000000000000004
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          0,
+          1
+        ],
+        "depth": 3.0000000000000004
+      }
+    }
+  },
+  {
+    "mode": "coherent_decoy",
+    "seed": 35,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          1,
+          0
+        ],
+        "depth": 3.0
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          1,
+          0
+        ],
+        "depth": 3.0
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          1,
+          0
+        ],
+        "depth": 3.0
+      }
+    }
+  },
+  {
+    "mode": "coherent_decoy",
+    "seed": 36,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          0,
+          1
+        ],
+        "depth": 3.0
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          0,
+          1
+        ],
+        "depth": 3.0
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          0,
+          1
+        ],
+        "depth": 3.0
+      }
+    }
+  },
+  {
+    "mode": "coherent_decoy",
+    "seed": 37,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          1,
+          0
+        ],
+        "depth": 2.9999999999999996
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          1,
+          0
+        ],
+        "depth": 2.9999999999999996
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          1,
+          0
+        ],
+        "depth": 2.9999999999999996
+      }
+    }
+  },
+  {
+    "mode": "coherent_decoy",
+    "seed": 38,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          0
+        ],
+        "depth": 3.0000000000000027
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          0
+        ],
+        "depth": 3.0000000000000027
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          0
+        ],
+        "depth": 3.0000000000000027
+      }
+    }
+  },
+  {
+    "mode": "coherent_decoy",
+    "seed": 39,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          0,
+          1
+        ],
+        "depth": 2.999999999999996
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          0,
+          1
+        ],
+        "depth": 2.999999999999996
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          0,
+          1
+        ],
+        "depth": 2.999999999999996
+      }
+    }
+  },
+  {
+    "mode": "repeated_texture",
+    "seed": 0,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          0
+        ],
+        "depth": 5.4699935914978415
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          1
+        ],
+        "depth": 3.000000000000001
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          1
+        ],
+        "depth": 3.000000000000001
+      }
+    }
+  },
+  {
+    "mode": "repeated_texture",
+    "seed": 1,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          0
+        ],
+        "depth": 4.721965337327144
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          0,
+          0
+        ],
+        "depth": 5.099999999999995
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          0,
+          0
+        ],
+        "depth": 5.099999999999995
+      }
+    }
+  },
+  {
+    "mode": "repeated_texture",
+    "seed": 2,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          0,
+          1
+        ],
+        "depth": 3.100366833998231
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          0,
+          0
+        ],
+        "depth": 5.100000000000006
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          0,
+          0
+        ],
+        "depth": 5.100000000000006
+      }
+    }
+  },
+  {
+    "mode": "repeated_texture",
+    "seed": 3,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          0,
+          0
+        ],
+        "depth": 2.8747394502273624
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          0
+        ],
+        "depth": 2.9999999999999987
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          0
+        ],
+        "depth": 2.9999999999999987
+      }
+    }
+  },
+  {
+    "mode": "repeated_texture",
+    "seed": 4,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          1,
+          1
+        ],
+        "depth": 5.469898108236335
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          1
+        ],
+        "depth": 5.100000000000007
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          1
+        ],
+        "depth": 5.100000000000007
+      }
+    }
+  },
+  {
+    "mode": "repeated_texture",
+    "seed": 5,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          1
+        ],
+        "depth": 4.720770054251056
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          1,
+          1
+        ],
+        "depth": 5.099999999999998
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          1,
+          1
+        ],
+        "depth": 5.099999999999998
+      }
+    }
+  },
+  {
+    "mode": "repeated_texture",
+    "seed": 6,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          0,
+          1
+        ],
+        "depth": 4.42978577784044
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          1,
+          1
+        ],
+        "depth": 5.1000000000000085
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          1,
+          1
+        ],
+        "depth": 5.1000000000000085
+      }
+    }
+  },
+  {
+    "mode": "repeated_texture",
+    "seed": 7,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          0
+        ],
+        "depth": 5.1000000000000005
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          0
+        ],
+        "depth": 5.1000000000000005
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          0
+        ],
+        "depth": 5.1000000000000005
+      }
+    }
+  },
+  {
+    "mode": "repeated_texture",
+    "seed": 8,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          0
+        ],
+        "depth": 5.4702669282591785
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          0,
+          0
+        ],
+        "depth": 5.100000000000002
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          0,
+          0
+        ],
+        "depth": 5.100000000000002
+      }
+    }
+  },
+  {
+    "mode": "repeated_texture",
+    "seed": 9,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          1,
+          1
+        ],
+        "depth": 3.2388592205019613
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          0,
+          1
+        ],
+        "depth": 3.0000000000000018
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          0,
+          1
+        ],
+        "depth": 3.0000000000000018
+      }
+    }
+  },
+  {
+    "mode": "repeated_texture",
+    "seed": 10,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          1,
+          0
+        ],
+        "depth": 4.428924185250039
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          0,
+          0
+        ],
+        "depth": 5.1000000000000005
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          0,
+          0
+        ],
+        "depth": 5.1000000000000005
+      }
+    }
+  },
+  {
+    "mode": "repeated_texture",
+    "seed": 11,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          0,
+          1
+        ],
+        "depth": 2.874593925394776
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          1
+        ],
+        "depth": 3.0
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          1
+        ],
+        "depth": 3.0
+      }
+    }
+  },
+  {
+    "mode": "repeated_texture",
+    "seed": 12,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          1
+        ],
+        "depth": 3.2387820287745006
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          0,
+          0
+        ],
+        "depth": 5.100000000000002
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          0,
+          0
+        ],
+        "depth": 5.100000000000002
+      }
+    }
+  },
+  {
+    "mode": "repeated_texture",
+    "seed": 13,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          1,
+          0
+        ],
+        "depth": 3.1006691531702333
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          0
+        ],
+        "depth": 2.999999999999999
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          0
+        ],
+        "depth": 2.999999999999999
+      }
+    }
+  },
+  {
+    "mode": "repeated_texture",
+    "seed": 14,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          1,
+          1
+        ],
+        "depth": 5.470240896221427
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          1
+        ],
+        "depth": 5.100000000000006
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          1
+        ],
+        "depth": 5.100000000000006
+      }
+    }
+  },
+  {
+    "mode": "repeated_texture",
+    "seed": 15,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          1
+        ],
+        "depth": 5.469883702079477
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          1,
+          1
+        ],
+        "depth": 5.099999999999995
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          1,
+          1
+        ],
+        "depth": 5.099999999999995
+      }
+    }
+  },
+  {
+    "mode": "repeated_texture",
+    "seed": 16,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          1,
+          0
+        ],
+        "depth": 4.7207325285020865
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          0
+        ],
+        "depth": 5.1000000000000005
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          0
+        ],
+        "depth": 5.1000000000000005
+      }
+    }
+  },
+  {
+    "mode": "repeated_texture",
+    "seed": 17,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          0
+        ],
+        "depth": 2.8746870241532108
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          1,
+          0
+        ],
+        "depth": 3.000000000000003
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          1,
+          0
+        ],
+        "depth": 3.000000000000003
+      }
+    }
+  },
+  {
+    "mode": "repeated_texture",
+    "seed": 18,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          0,
+          1
+        ],
+        "depth": 2.874814633171648
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          1
+        ],
+        "depth": 3.000000000000003
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          1
+        ],
+        "depth": 3.000000000000003
+      }
+    }
+  },
+  {
+    "mode": "repeated_texture",
+    "seed": 19,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          0
+        ],
+        "depth": 3.1004622880203856
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          0,
+          0
+        ],
+        "depth": 2.999999999999996
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          0,
+          0
+        ],
+        "depth": 2.999999999999996
+      }
+    }
+  },
+  {
+    "mode": "repeated_texture",
+    "seed": 20,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          1,
+          0
+        ],
+        "depth": 4.720470885444298
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          1,
+          1
+        ],
+        "depth": 3.0
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          1,
+          1
+        ],
+        "depth": 3.0
+      }
+    }
+  },
+  {
+    "mode": "repeated_texture",
+    "seed": 21,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          1,
+          1
+        ],
+        "depth": 3.000000000000002
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          1,
+          1
+        ],
+        "depth": 3.000000000000002
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          1,
+          1
+        ],
+        "depth": 3.000000000000002
+      }
+    }
+  },
+  {
+    "mode": "repeated_texture",
+    "seed": 22,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          0
+        ],
+        "depth": 2.9999999999999973
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          0
+        ],
+        "depth": 2.9999999999999973
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          0
+        ],
+        "depth": 2.9999999999999973
+      }
+    }
+  },
+  {
+    "mode": "repeated_texture",
+    "seed": 23,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          1
+        ],
+        "depth": 5.470328724828594
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          1,
+          1
+        ],
+        "depth": 5.100000000000006
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          1,
+          1
+        ],
+        "depth": 5.100000000000006
+      }
+    }
+  },
+  {
+    "mode": "repeated_texture",
+    "seed": 24,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          1,
+          1
+        ],
+        "depth": 5.100000000000005
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          1,
+          1
+        ],
+        "depth": 5.100000000000005
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          1,
+          1
+        ],
+        "depth": 5.100000000000005
+      }
+    }
+  },
+  {
+    "mode": "repeated_texture",
+    "seed": 25,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          0,
+          1
+        ],
+        "depth": 3.237761962027766
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          0
+        ],
+        "depth": 5.099999999999998
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          0
+        ],
+        "depth": 5.099999999999998
+      }
+    }
+  },
+  {
+    "mode": "repeated_texture",
+    "seed": 26,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          0,
+          0
+        ],
+        "depth": 3.2390208781414813
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          1,
+          0
+        ],
+        "depth": 3.000000000000001
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          1,
+          0
+        ],
+        "depth": 3.000000000000001
+      }
+    }
+  },
+  {
+    "mode": "repeated_texture",
+    "seed": 27,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          1
+        ],
+        "depth": 2.8746609181107288
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          1,
+          1
+        ],
+        "depth": 3.0000000000000027
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          1,
+          1
+        ],
+        "depth": 3.0000000000000027
+      }
+    }
+  },
+  {
+    "mode": "repeated_texture",
+    "seed": 28,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          1
+        ],
+        "depth": 3.2384495521502226
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          1
+        ],
+        "depth": 2.9999999999999982
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          1
+        ],
+        "depth": 2.9999999999999982
+      }
+    }
+  },
+  {
+    "mode": "repeated_texture",
+    "seed": 29,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          0,
+          1
+        ],
+        "depth": 5.099999999999989
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          0,
+          1
+        ],
+        "depth": 5.099999999999989
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          0,
+          1
+        ],
+        "depth": 5.099999999999989
+      }
+    }
+  },
+  {
+    "mode": "repeated_texture",
+    "seed": 30,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          1,
+          1
+        ],
+        "depth": 5.1
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          1,
+          1
+        ],
+        "depth": 5.1
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          1,
+          1
+        ],
+        "depth": 5.1
+      }
+    }
+  },
+  {
+    "mode": "repeated_texture",
+    "seed": 31,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          0,
+          1
+        ],
+        "depth": 3.1006320168067663
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          0,
+          0
+        ],
+        "depth": 5.100000000000006
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          0,
+          0
+        ],
+        "depth": 5.100000000000006
+      }
+    }
+  },
+  {
+    "mode": "repeated_texture",
+    "seed": 32,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          0,
+          1
+        ],
+        "depth": 5.470437908131754
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          1
+        ],
+        "depth": 5.099999999999999
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          1
+        ],
+        "depth": 5.099999999999999
+      }
+    }
+  },
+  {
+    "mode": "repeated_texture",
+    "seed": 33,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          1
+        ],
+        "depth": 4.7216482057427855
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          0
+        ],
+        "depth": 3.000000000000001
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          0
+        ],
+        "depth": 3.000000000000001
+      }
+    }
+  },
+  {
+    "mode": "repeated_texture",
+    "seed": 34,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          0,
+          1
+        ],
+        "depth": 4.430219537674448
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          1,
+          1
+        ],
+        "depth": 5.100000000000002
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          1,
+          1
+        ],
+        "depth": 5.100000000000002
+      }
+    }
+  },
+  {
+    "mode": "repeated_texture",
+    "seed": 35,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          1
+        ],
+        "depth": 3.238328605824585
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          1
+        ],
+        "depth": 3.0
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          1
+        ],
+        "depth": 3.0
+      }
+    }
+  },
+  {
+    "mode": "repeated_texture",
+    "seed": 36,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          0
+        ],
+        "depth": 4.72020065581662
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          1
+        ],
+        "depth": 3.0
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          1
+        ],
+        "depth": 3.0
+      }
+    }
+  },
+  {
+    "mode": "repeated_texture",
+    "seed": 37,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          0,
+          1
+        ],
+        "depth": 5.470395054916421
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          1
+        ],
+        "depth": 5.099999999999993
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          1
+        ],
+        "depth": 5.099999999999993
+      }
+    }
+  },
+  {
+    "mode": "repeated_texture",
+    "seed": 38,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          1
+        ],
+        "depth": 4.7204635687116925
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          0
+        ],
+        "depth": 3.0000000000000027
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          0
+        ],
+        "depth": 3.0000000000000027
+      }
+    }
+  },
+  {
+    "mode": "repeated_texture",
+    "seed": 39,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          1
+        ],
+        "depth": 4.429907061313536
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          0,
+          0
+        ],
+        "depth": 2.999999999999996
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          1,
+          0,
+          0
+        ],
+        "depth": 2.999999999999996
+      }
+    }
+  },
+  {
+    "mode": "occluded",
+    "seed": 0,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          0
+        ],
+        "depth": 2.8745990359086315
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          1
+        ],
+        "depth": 5.099999999999995
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          1
+        ],
+        "depth": 5.099999999999995
+      }
+    }
+  },
+  {
+    "mode": "occluded",
+    "seed": 1,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          1
+        ],
+        "depth": 2.8748141038314374
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          0
+        ],
+        "depth": 5.099999999999995
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          0
+        ],
+        "depth": 5.099999999999995
+      }
+    }
+  },
+  {
+    "mode": "occluded",
+    "seed": 2,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          1
+        ],
+        "depth": 2.874675982126782
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          0
+        ],
+        "depth": 5.100000000000006
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          0
+        ],
+        "depth": 5.100000000000006
+      }
+    }
+  },
+  {
+    "mode": "occluded",
+    "seed": 3,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          1
+        ],
+        "depth": 2.8747394502273624
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          0
+        ],
+        "depth": 5.100000000000008
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          0
+        ],
+        "depth": 5.100000000000008
+      }
+    }
+  },
+  {
+    "mode": "occluded",
+    "seed": 4,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          1
+        ],
+        "depth": 2.874575554343289
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          0
+        ],
+        "depth": 5.100000000000007
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          0
+        ],
+        "depth": 5.100000000000007
+      }
+    }
+  },
+  {
+    "mode": "occluded",
+    "seed": 5,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          0
+        ],
+        "depth": 2.8746716695792087
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          1
+        ],
+        "depth": 5.099999999999998
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          1
+        ],
+        "depth": 5.099999999999998
+      }
+    }
+  },
+  {
+    "mode": "occluded",
+    "seed": 6,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          0
+        ],
+        "depth": 2.8747613273540855
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          1
+        ],
+        "depth": 5.1000000000000085
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          1
+        ],
+        "depth": 5.1000000000000085
+      }
+    }
+  },
+  {
+    "mode": "occluded",
+    "seed": 7,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          0
+        ],
+        "depth": 2.8747599515149833
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          1
+        ],
+        "depth": 5.1000000000000005
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          1
+        ],
+        "depth": 5.1000000000000005
+      }
+    }
+  },
+  {
+    "mode": "occluded",
+    "seed": 8,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          1
+        ],
+        "depth": 2.8748163164501213
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          0
+        ],
+        "depth": 5.100000000000002
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          0
+        ],
+        "depth": 5.100000000000002
+      }
+    }
+  },
+  {
+    "mode": "occluded",
+    "seed": 9,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          1
+        ],
+        "depth": 2.8747990749677075
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          0
+        ],
+        "depth": 5.099999999999997
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          0
+        ],
+        "depth": 5.099999999999997
+      }
+    }
+  },
+  {
+    "mode": "occluded",
+    "seed": 10,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          0
+        ],
+        "depth": 2.8745901942303145
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          1
+        ],
+        "depth": 5.1000000000000005
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          1
+        ],
+        "depth": 5.1000000000000005
+      }
+    }
+  },
+  {
+    "mode": "occluded",
+    "seed": 11,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          1
+        ],
+        "depth": 2.874593925394776
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          0
+        ],
+        "depth": 5.100000000000001
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          0
+        ],
+        "depth": 5.100000000000001
+      }
+    }
+  },
+  {
+    "mode": "occluded",
+    "seed": 12,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          1
+        ],
+        "depth": 2.874814527713275
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          0
+        ],
+        "depth": 5.100000000000002
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          0
+        ],
+        "depth": 5.100000000000002
+      }
+    }
+  },
+  {
+    "mode": "occluded",
+    "seed": 13,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          0
+        ],
+        "depth": 2.8747683717537917
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          1
+        ],
+        "depth": 5.100000000000001
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          1
+        ],
+        "depth": 5.100000000000001
+      }
+    }
+  },
+  {
+    "mode": "occluded",
+    "seed": 14,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          0
+        ],
+        "depth": 2.874702296907647
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          1
+        ],
+        "depth": 5.100000000000006
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          1
+        ],
+        "depth": 5.100000000000006
+      }
+    }
+  },
+  {
+    "mode": "occluded",
+    "seed": 15,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          0
+        ],
+        "depth": 2.8745917075353686
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          1
+        ],
+        "depth": 5.099999999999995
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          1
+        ],
+        "depth": 5.099999999999995
+      }
+    }
+  },
+  {
+    "mode": "occluded",
+    "seed": 16,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          0
+        ],
+        "depth": 2.874659223623271
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          1
+        ],
+        "depth": 5.1000000000000005
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          1
+        ],
+        "depth": 5.1000000000000005
+      }
+    }
+  },
+  {
+    "mode": "occluded",
+    "seed": 17,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          0
+        ],
+        "depth": 2.8746870241532108
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          1
+        ],
+        "depth": 5.100000000000009
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          1
+        ],
+        "depth": 5.100000000000009
+      }
+    }
+  },
+  {
+    "mode": "occluded",
+    "seed": 18,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          0
+        ],
+        "depth": 2.874814633171648
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          1
+        ],
+        "depth": 5.099999999999999
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          1
+        ],
+        "depth": 5.099999999999999
+      }
+    }
+  },
+  {
+    "mode": "occluded",
+    "seed": 19,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          1
+        ],
+        "depth": 2.8746610483563737
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          0
+        ],
+        "depth": 5.099999999999993
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          0
+        ],
+        "depth": 5.099999999999993
+      }
+    }
+  },
+  {
+    "mode": "occluded",
+    "seed": 20,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          0
+        ],
+        "depth": 2.8746287604499305
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          1
+        ],
+        "depth": 5.1000000000000005
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          1
+        ],
+        "depth": 5.1000000000000005
+      }
+    }
+  },
+  {
+    "mode": "occluded",
+    "seed": 21,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          1
+        ],
+        "depth": 2.8746213192974874
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          0
+        ],
+        "depth": 5.100000000000001
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          0
+        ],
+        "depth": 5.100000000000001
+      }
+    }
+  },
+  {
+    "mode": "occluded",
+    "seed": 22,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          1
+        ],
+        "depth": 2.8746128141176834
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          0
+        ],
+        "depth": 5.099999999999996
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          0
+        ],
+        "depth": 5.099999999999996
+      }
+    }
+  },
+  {
+    "mode": "occluded",
+    "seed": 23,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          0
+        ],
+        "depth": 2.874716759056318
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          1
+        ],
+        "depth": 5.100000000000006
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          1
+        ],
+        "depth": 5.100000000000006
+      }
+    }
+  },
+  {
+    "mode": "occluded",
+    "seed": 24,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          0
+        ],
+        "depth": 2.8746520954411805
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          1
+        ],
+        "depth": 5.100000000000005
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          1
+        ],
+        "depth": 5.100000000000005
+      }
+    }
+  },
+  {
+    "mode": "occluded",
+    "seed": 25,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          0
+        ],
+        "depth": 2.8745827808676636
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          1
+        ],
+        "depth": 5.099999999999998
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          1
+        ],
+        "depth": 5.099999999999998
+      }
+    }
+  },
+  {
+    "mode": "occluded",
+    "seed": 26,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          0
+        ],
+        "depth": 2.8748306664602286
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          1
+        ],
+        "depth": 5.100000000000004
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          1
+        ],
+        "depth": 5.100000000000004
+      }
+    }
+  },
+  {
+    "mode": "occluded",
+    "seed": 27,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          0
+        ],
+        "depth": 2.8746609181107288
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          1
+        ],
+        "depth": 5.099999999999999
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          1
+        ],
+        "depth": 5.099999999999999
+      }
+    }
+  },
+  {
+    "mode": "occluded",
+    "seed": 28,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          1
+        ],
+        "depth": 2.874744065442944
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          0
+        ],
+        "depth": 5.100000000000001
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          0
+        ],
+        "depth": 5.100000000000001
+      }
+    }
+  },
+  {
+    "mode": "occluded",
+    "seed": 29,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          0
+        ],
+        "depth": 2.87474367203561
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          1
+        ],
+        "depth": 5.099999999999989
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          1
+        ],
+        "depth": 5.099999999999989
+      }
+    }
+  },
+  {
+    "mode": "occluded",
+    "seed": 30,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          1
+        ],
+        "depth": 2.8746381160330094
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          0
+        ],
+        "depth": 5.1
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          0
+        ],
+        "depth": 5.1
+      }
+    }
+  },
+  {
+    "mode": "occluded",
+    "seed": 31,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          0
+        ],
+        "depth": 2.8747098993774403
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          1
+        ],
+        "depth": 5.100000000000006
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          1
+        ],
+        "depth": 5.100000000000006
+      }
+    }
+  },
+  {
+    "mode": "occluded",
+    "seed": 32,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          0
+        ],
+        "depth": 2.874769193810032
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          1
+        ],
+        "depth": 5.099999999999999
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          1
+        ],
+        "depth": 5.099999999999999
+      }
+    }
+  },
+  {
+    "mode": "occluded",
+    "seed": 33,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          0
+        ],
+        "depth": 2.8747724969004897
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          1
+        ],
+        "depth": 5.099999999999999
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          1
+        ],
+        "depth": 5.099999999999999
+      }
+    }
+  },
+  {
+    "mode": "occluded",
+    "seed": 34,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          1
+        ],
+        "depth": 2.8748335436822106
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          0
+        ],
+        "depth": 5.100000000000002
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          0
+        ],
+        "depth": 5.100000000000002
+      }
+    }
+  },
+  {
+    "mode": "occluded",
+    "seed": 35,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          0
+        ],
+        "depth": 2.874711790360506
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          1
+        ],
+        "depth": 5.100000000000003
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          1
+        ],
+        "depth": 5.100000000000003
+      }
+    }
+  },
+  {
+    "mode": "occluded",
+    "seed": 36,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          1
+        ],
+        "depth": 2.8746034538393714
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          0
+        ],
+        "depth": 5.1000000000000005
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          0
+        ],
+        "depth": 5.1000000000000005
+      }
+    }
+  },
+  {
+    "mode": "occluded",
+    "seed": 37,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          0
+        ],
+        "depth": 2.8747566095485433
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          1
+        ],
+        "depth": 5.099999999999993
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          1
+        ],
+        "depth": 5.099999999999993
+      }
+    }
+  },
+  {
+    "mode": "occluded",
+    "seed": 38,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          0
+        ],
+        "depth": 2.8746287272739335
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          1
+        ],
+        "depth": 5.100000000000007
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          1
+        ],
+        "depth": 5.100000000000007
+      }
+    }
+  },
+  {
+    "mode": "occluded",
+    "seed": 39,
+    "truth": 3.0,
+    "hypotheses": 8,
+    "results": {
+      "photometric": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          0,
+          1
+        ],
+        "depth": 2.874698861545208
+      },
+      "joint_photo_geometry": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          0
+        ],
+        "depth": 5.099999999999996
+      },
+      "certificate_conflict_filter": {
+        "state": "ESTIMATE",
+        "choice": [
+          0,
+          1,
+          0
+        ],
+        "depth": 5.099999999999996
+      }
+    }
+  }
+]

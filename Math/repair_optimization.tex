@@ -1,0 +1,31 @@
+\documentclass[11pt]{article}
+\usepackage{amsmath,amssymb,amsthm}
+\newtheorem{proposition}{Proposition}
+\begin{document}
+\section*{Repair formulations}
+\paragraph{Selective local operator.}
+For a target prediction $d_j$ with fixed positive width $s_j$, compute a depth-free outer interval $J_j=[L_j,U_j]$. Only when $[d_j-s_j,d_j+s_j]\cap J_j=\varnothing$ and all hypothesis/accounting checks succeed, set $d'_j=\Pi_{J_j}(d_j)$. Otherwise set $d'_j=d_j$. Widths are never inflated to force feasibility. For unselected observations and unsampled pixels define identity updates exactly. After every track, reconstruct all intervals and recheck the full system. Scalar safety and joint-system feasibility are separate outputs.
+
+\paragraph{Global convex baseline.}
+For track points $X=(X_1,\ldots,X_K)$, fixed feasible reference points $X^0_k$, and fixed nonnegative weights, solve
+\begin{align*}
+\min_{X_k\in P_{{\rm pix},k}}\quad&\sum_{ki}w_{ki}\,h_\delta\!\left(\frac{r_{i,3}X_k+t_{i,3}-\hat d_{ki}}{s_{ki}}\right)
++\frac\eta2\sum_k\|X_k-X^0_k\|_2^2\\
+&+\frac\lambda2\sum_{(k,l,i)\in E}a_{kli}\left[(z_i(X_k)-z_i(X_l))-(\hat d_{ki}-\hat d_{li})\right]^2.
+\end{align*}
+Here $h_\delta(e)=e^2/2$ for $|e|\le\delta$ and $\delta|e|-\delta^2/2$ otherwise. The graph preserves original differences rather than equating unrelated surface depths. No edge is inferred from test reference depth.
+
+\begin{proposition}[R1; PROVED UNDER EXPLICIT ASSUMPTIONS]
+If all $P_{{\rm pix},k}$ are nonempty compact polytopes, $s_{ki}>0$, $w,a,\lambda\ge0$ and $\eta>0$, the displayed objective is continuous and strongly convex on a nonempty compact convex domain. It has a unique minimizer. With $\eta=0$, existence remains but uniqueness need not hold.
+\end{proposition}
+\begin{proof}
+Huber loss is convex and continuous; composition with an affine function and nonnegative weighted sums preserve these properties. Each graph term is a nonnegative square of an affine expression and is convex. The ridge term has Hessian $\eta I$ in the stacked point variables, giving strong convexity. Compactness and continuity give existence; two distinct minimizers would violate strict convexity along their segment. Without ridge, a single unobserved depth direction can have equal cost at multiple points.
+\end{proof}
+This is a standard convex optimization argument, not a new theoretical contribution. Numerical IRLS with constrained quadratic subproblems is implemented as an approximate solver. Each iteration reports optimizer status and objective; monotonicity is checked rather than assumed. Exact global optimality of the numerical result is not certified. Singular weights, hard wrong correspondences, and nonconvergence cause explicit failures. IRLS convergence under the particular stopping/line-search policy is UNRESOLVED; fixed convex objective existence is not an implementation convergence theorem.
+
+\paragraph{Nonconvex extensions.}
+Joint pose optimization, robust correspondence selection, redescending loss and learned dense regularizers are generally nonconvex. An anchored BA-style baseline is diagnostic only; its pose changes invalidate comparisons using an identical known-pose premise unless separately labeled. Confidence values are weights, not calibrated probabilities. Matching-score weighting does not repair incorrect hard pixel constraints.
+
+\paragraph{Preservation.}
+The local operator changes only the explicit selected observation mask. This is an exact support property. Global ridge/spatial penalties encourage preservation but do not enforce it; graph-connected correct predictions may move. Setting outside-mask variables equal to their originals would enforce preservation but can prevent consistency. Neither method has a general ground-truth reconstruction improvement guarantee.
+\end{document}

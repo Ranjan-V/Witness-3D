@@ -1,0 +1,12 @@
+# Preserved changes and execution history
+
+1. Read all nine requested mathematical/theoretical files and reconstructed G1/C2/C3/W1/W2/E1/R1 before running tests. Original theorem, complexity text and proof ledger are preserved in `history/`.
+2. Clarified W1's physical-depth premise: the supplied target affine depth must equal physical depth. The encoded-set argument was correct; “fixed” alone must not be read as “accurate.” Corrected complexity accounting from a decision call to up to two LP proposals and from bare per-track rows to retained evidence memory.
+3. Inspected `pyproject.toml`, package/test structure and local interpreter inventories. Python 3.12 lacked runtime dependencies. Python 3.11.9 had the needed local CPU packages. Created `.venv-validation` with system packages. Offline editable install failed due to absent wheel; no network installation attempted. Source execution uses explicit PYTHONPATH. This does not establish wheel-build readiness.
+4. Original tests: 69 passed (67 functions plus parameterized expansions), 0 failed, 0 skipped. No existing test was edited, disabled, weakened or removed.
+5. Added adversarial tests; initial expanded run: 105 passed. Added two regression tests exposing genuine evaluation bugs; retained actual 2-failure log/XML.
+6. Fixed `repair_metrics`: invalid after-depths now count as damage/error increase when the original/reference were valid, rather than disappearing from denominators. Fixed `_run_inputs`: a rejected point estimate is cleared when its depths are rejected, preventing invalid native-point metrics alongside preserved original depths. Original files preserved.
+7. Added configurable RANSAC threshold plumbing so the validation can use a declared pixel-radius-derived threshold. Added optional synthetic track_length, validated independently from total camera count. Added regression tests for both. Full suite after fixes: 109 passed, 0 failed, 0 skipped.
+8. Executed a separate pilot, then the predeclared 28-scenario sweep with five seeds, followed by recorded analysis. Original principal-method selection and global optimizer remain unchanged; their shortcomings are measured rather than tuned away. Numerical source files stayed fixed during the sweep.
+
+History files are snapshots, not modules imported by the package/tests. Phase 1 documents explicitly labeled “unexecuted” are historical; Phase 2 status is in this directory. No Paper file or directory metadata was deliberately changed.

@@ -1,0 +1,98 @@
+[
+  {
+    "mode": "coherent_decoy",
+    "method": "photometric",
+    "cases": 40,
+    "returned": 40,
+    "conditional_abs_rel": 4.773959005888173e-16,
+    "abstained": 0
+  },
+  {
+    "mode": "coherent_decoy",
+    "method": "joint_photo_geometry",
+    "cases": 40,
+    "returned": 40,
+    "conditional_abs_rel": 4.773959005888173e-16,
+    "abstained": 0
+  },
+  {
+    "mode": "coherent_decoy",
+    "method": "certificate_conflict_filter",
+    "cases": 40,
+    "returned": 40,
+    "conditional_abs_rel": 4.773959005888173e-16,
+    "abstained": 0
+  },
+  {
+    "mode": "generic_distractors",
+    "method": "photometric",
+    "cases": 40,
+    "returned": 40,
+    "conditional_abs_rel": 4.773959005888173e-16,
+    "abstained": 0
+  },
+  {
+    "mode": "generic_distractors",
+    "method": "joint_photo_geometry",
+    "cases": 40,
+    "returned": 40,
+    "conditional_abs_rel": 4.773959005888173e-16,
+    "abstained": 0
+  },
+  {
+    "mode": "generic_distractors",
+    "method": "certificate_conflict_filter",
+    "cases": 40,
+    "returned": 40,
+    "conditional_abs_rel": 4.773959005888173e-16,
+    "abstained": 0
+  },
+  {
+    "mode": "occluded",
+    "method": "photometric",
+    "cases": 40,
+    "returned": 40,
+    "conditional_abs_rel": 0.041766566976718295,
+    "abstained": 0
+  },
+  {
+    "mode": "occluded",
+    "method": "joint_photo_geometry",
+    "cases": 40,
+    "returned": 40,
+    "conditional_abs_rel": 0.7000000000000003,
+    "abstained": 0
+  },
+  {
+    "mode": "occluded",
+    "method": "certificate_conflict_filter",
+    "cases": 40,
+    "returned": 40,
+    "conditional_abs_rel": 0.7000000000000003,
+    "abstained": 0
+  },
+  {
+    "mode": "repeated_texture",
+    "method": "photometric",
+    "cases": 40,
+    "returned": 40,
+    "conditional_abs_rel": 0.40321974417002987,
+    "abstained": 0
+  },
+  {
+    "mode": "repeated_texture",
+    "method": "joint_photo_geometry",
+    "cases": 40,
+    "returned": 40,
+    "conditional_abs_rel": 0.36750000000000044,
+    "abstained": 0
+  },
+  {
+    "mode": "repeated_texture",
+    "method": "certificate_conflict_filter",
+    "cases": 40,
+    "returned": 40,
+    "conditional_abs_rel": 0.36750000000000044,
+    "abstained": 0
+  }
+]

@@ -1,0 +1,29 @@
+{
+  "phase2_files_changed": [],
+  "phase2_source_hash": "3cd9c820f8fcf5c11381b1d966516a1cb7e9a85c10fdb68ce65924ec566671ca",
+  "tests": {
+    "name": "pytest",
+    "errors": "0",
+    "failures": "0",
+    "skipped": "0",
+    "tests": "114",
+    "time": "1.531",
+    "timestamp": "2026-11-02T17:51:48.014704+05:30",
+    "hostname": "RANJAN"
+  },
+  "paper_empty": true,
+  "sha256": {
+    "scripts\\phase3_condition_control.py": "3e99d79c82e87043468a47b4b472cfd375bac0a477406d9bd4c40d475d508721",
+    "scripts\\phase3_mask_audit.py": "b1dbf210151fd6048006daeee81e311c82e17dcf92c61f730ec231dab49f854e",
+    "scripts\\phase3_mechanism.py": "eb61fa27a79ff3b830e5a34af1e956d79785d9f6157f18487f3b0844544a600a",
+    "scripts\\phase3_report.py": "032549565990dc104c7d0b7984e00e7df7e634c75ad88b034038f761f43e3d4f",
+    "scripts\\phase3_selectors.py": "72a52bec08e56f77335b971e644c8f98506019730060b53c71da840b9c3c7683",
+    "scripts\\phase3_stress.py": "5fc2342c400eaea9b56dcdbe2f1d205152c464720332cdbcc9ae23d4638545e6",
+    "docs\\phase3\\audit_and_protocol.md": "46df354670c65271475e0d3f6e4d602295eff7dfdef3217e91f1aae050ea3e3a",
+    "docs\\phase3\\mask_comparisons.md": "0e35b8118d2b44119f8c8a541a178a04b0229ffa8ea3620783a128e086073af2",
+    "docs\\phase3\\novelty_and_proposal.md": "6cebfb43755bc95f560e3b3a65deaedd08b5f7544813b1ce7414a0dc06d18e36",
+    "docs\\phase3\\README.md": "014ac759f49eadc398c3d5918b2da37b3e952f4a756db647fa8cd4cb0eaac439",
+    "docs\\phase3\\stress_comparisons.md": "7769071c7b30919bc649b4cccf93c36608bbb0d0effe9b059ec97100c8297002",
+    "tests\\test_phase3_diagnostics.py": "5fb1ff506e409525b25f8c395df2eb9ad0730fcdea4bdbe391f11500ea95c7c2"
+  }
+}

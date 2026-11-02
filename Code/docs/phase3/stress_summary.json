@@ -1,0 +1,79 @@
+[
+  {
+    "scenario": "contamination",
+    "original": 0.13621012701078702,
+    "dlt": 0.4555111089581042,
+    "ransac": 0.0021230403436030484,
+    "witness_repair": 0.06487086722155425,
+    "w_mask_dlt": 0.23728556669074635,
+    "disagreement_dlt": 0.42032637933688954,
+    "w_mask_ransac": 0.058442642008897684,
+    "disagreement_ransac": 0.029489977098630514
+  },
+  {
+    "scenario": "continuous",
+    "original": 0.13621012701078702,
+    "dlt": 0.001865890199724616,
+    "ransac": 0.0018663964766972366,
+    "witness_repair": 0.023100881795439888,
+    "w_mask_dlt": 0.010728128386261335,
+    "disagreement_dlt": 0.010683202461800769,
+    "w_mask_ransac": 0.010728326158028222,
+    "disagreement_ransac": 0.010683399882474564
+  },
+  {
+    "scenario": "heterogeneous_quality",
+    "original": 0.12589259001387493,
+    "dlt": 0.019297856136607654,
+    "ransac": 0.007851042675355845,
+    "witness_repair": 0.061908571117333146,
+    "w_mask_dlt": 0.040390911033102585,
+    "disagreement_dlt": 0.03962933631769328,
+    "w_mask_ransac": 0.036277550683955835,
+    "disagreement_ransac": 0.03410388499218696
+  },
+  {
+    "scenario": "misleading_confidence",
+    "original": 0.13621012701078702,
+    "dlt": 0.001865890199724616,
+    "ransac": 0.002469973952614041,
+    "witness_repair": 0.023100881795439888,
+    "w_mask_dlt": 0.010728128386261335,
+    "disagreement_dlt": 0.010683202461800769,
+    "w_mask_ransac": 0.011108083408253071,
+    "disagreement_ransac": 0.011114939232502579
+  },
+  {
+    "scenario": "near_zero",
+    "original": 0.13621012701078702,
+    "dlt": 0.4008971317848709,
+    "ransac": 181.76835489326504,
+    "witness_repair": 0.13621012701078702,
+    "w_mask_dlt": 0.13621012701078702,
+    "disagreement_dlt": 0.13621012701078702,
+    "w_mask_ransac": 0.13621012701078702,
+    "disagreement_ransac": 0.13621012701078702
+  },
+  {
+    "scenario": "partial_occlusion",
+    "original": 0.1460716285678934,
+    "dlt": 0.001993617979317967,
+    "ransac": 0.001993848725424369,
+    "witness_repair": 0.06446813436485063,
+    "w_mask_dlt": 0.04870260676557677,
+    "disagreement_dlt": 0.023781391830550457,
+    "w_mask_ransac": 0.04870279793692034,
+    "disagreement_ransac": 0.023781544973482588
+  },
+  {
+    "scenario": "pose_uncertainty",
+    "original": 0.13621012701078702,
+    "dlt": 0.008024591951739424,
+    "ransac": 0.010724385577840868,
+    "witness_repair": 0.12101291602620215,
+    "w_mask_dlt": 0.12013892366912785,
+    "disagreement_dlt": 0.10732435962576259,
+    "w_mask_ransac": 0.1203722650225458,
+    "disagreement_ransac": 0.10802493914750144
+  }
+]

@@ -1,0 +1,22 @@
+base:
+  kind: synthetic
+  scene_name: geometry_ablation
+  seeds: [0, 1, 2]
+  synthetic:
+    tracks: 8
+    views: 3
+    baseline: 0.3
+    pixel_radius: 0.5
+    depth_relative_width: 0.02
+    depth_bias: 1.5
+    biased_fraction: 0.3
+  experiment:
+    methods: [none, triangulation, ransac, local, local_all]
+    repair: {q: 0, extraction: dual, max_hypotheses: 64, save_evidence: false}
+    solver: {time_limit: 2.0, proposal_tolerance: 1.0e-8, recovery_rows: 12}
+axes:
+  synthetic.views: [2, 3, 5]
+  synthetic.baseline: [0.0, 0.03, 0.3]
+  synthetic.pixel_radius: [0.25, 1.0]
+  synthetic.depth_relative_width: [0.01, 0.1]
+

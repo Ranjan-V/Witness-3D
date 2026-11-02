@@ -1,0 +1,40 @@
+kind: synthetic
+scene_name: analytic_planes
+seeds: [0, 1, 2]
+synthetic:
+  tracks: 16
+  views: 3
+  baseline: 0.3
+  pixel_sigma: 0.0
+  pixel_radius: 0.5
+  bounded_noise: 0.2
+  depth_relative_width: 0.02
+  depth_bias: 1.5
+  biased_fraction: 0.3
+  outlier_rate: 0.0
+  pose_translation_sigma: 0.0
+  pose_rotation_sigma: 0.0
+  configuration: translated
+  scene: planes
+experiment:
+  methods: [none, fusion, triangulation, ransac, robust_triangulation, robust_depth, residual_threshold, witness_only, local, local_all, global, global_uniform]
+  robust_loss: huber
+  solver:
+    time_limit: 2.0
+    proposal_tolerance: 1.0e-8
+    recovery_rows: 12
+  repair:
+    q: 0
+    z_min: 0.01
+    max_hypotheses: 64
+    extraction: dual
+    extraction_queries: 128
+    localize: true
+    save_evidence: true
+  global:
+    block_tracks: 16
+    delta: 1.0
+    ridge: 0.001
+    spatial: 0.01
+    max_iterations: 20
+

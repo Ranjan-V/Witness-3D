@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "run_signature": "04a32cb0f48ca93a913f19e916f2d27fd95adb9996c876240c8a6e1b241e3c93",
+  "track": "4",
+  "method": "ransac",
+  "original_depths": {
+    "4:0": 3.0,
+    "4:1": 4.5,
+    "4:2": 4.5,
+    "4:3": 3.0,
+    "4:4": 4.5
+  },
+  "depths": {
+    "4:0": 2.995193724774494,
+    "4:1": 2.995193724774494,
+    "4:2": 2.995193724774494,
+    "4:3": 2.995193724774494,
+    "4:4": 2.995193724774494
+  },
+  "state": "NUMERICALLY_CONVERGED",
+  "status_before": "VERIFIED_CONTRADICTION",
+  "status_after": "VERIFIED_FEASIBLE",
+  "detected": [],
+  "edit_ids": [
+    "4:0",
+    "4:1",
+    "4:2",
+    "4:3",
+    "4:4"
+  ],
+  "artifacts": [],
+  "geometry_residual_flags": [],
+  "z_min": 0.01,
+  "point": [
+    0.42534109826989097,
+    -0.251310336633812,
+    2.995193724774494
+  ],
+  "consistency": {
+    "reprojection_mean_px": 0.08937499261805444,
+    "depth_inconsistency_m": 0.9048062752255058,
+    "invalid_projection_fraction": 0.0
+  },
+  "efficiency": {
+    "wall_seconds": 0.047092200024053454,
+    "cpu_seconds": 0.03125,
+    "peak_rss_bytes_sampled": 89747456,
+    "rss_sampling_period_seconds": 0.02
+  },
+  "certificate_checks": []
+}

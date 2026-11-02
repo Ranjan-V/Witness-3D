@@ -1,0 +1,4 @@
+enabled: false
+reason: No supported XLA workload implemented; geometric LP and exact checks stay on CPU.
+future_gate: Demonstrate a supported model/framework, numerical parity and useful throughput before enabling a TPU workload.
+

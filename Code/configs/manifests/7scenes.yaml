@@ -1,0 +1,13 @@
+dataset: 7scenes
+root: ${W3D_DATA_ROOT}
+scene: chess
+K: calibration/K_rgb_rectified.txt
+width: 640
+height: 480
+undistorted_pinhole: true
+depth_registered_to_rgb: true
+provenance: REQUIRED_vetted_RGB_calibration_and_registered_depth_export
+sequences: [seq-03]
+depth_suffix: .depth.proj.png
+stride: 10
+

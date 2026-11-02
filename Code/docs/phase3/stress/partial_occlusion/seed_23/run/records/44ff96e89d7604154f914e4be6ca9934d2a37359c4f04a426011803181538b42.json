@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "run_signature": "ad478cbdf89f06defa120d9157aead05df41e074fdb8e8f2dff91dd65caa857f",
+  "track": "2",
+  "method": "none",
+  "original_depths": {
+    "2:0": 3.7888837731598883,
+    "2:1": 2.3498449792384095,
+    "2:4": 2.9173128380318647
+  },
+  "depths": {
+    "2:0": 3.7888837731598883,
+    "2:1": 2.3498449792384095,
+    "2:4": 2.9173128380318647
+  },
+  "state": "UNCHANGED",
+  "status_before": "VERIFIED_CONTRADICTION",
+  "status_after": "VERIFIED_CONTRADICTION",
+  "detected": [],
+  "edit_ids": [],
+  "artifacts": [],
+  "geometry_residual_flags": [],
+  "z_min": 0.01,
+  "efficiency": {
+    "wall_seconds": 0.0004496999899856746,
+    "cpu_seconds": 0.0,
+    "peak_rss_bytes_sampled": 105418752,
+    "rss_sampling_period_seconds": 0.02
+  },
+  "certificate_checks": []
+}

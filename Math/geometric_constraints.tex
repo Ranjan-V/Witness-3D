@@ -1,0 +1,30 @@
+\documentclass[11pt]{article}
+\usepackage{amsmath,amssymb,amsthm}
+\newtheorem{proposition}{Proposition}
+\begin{document}
+\section*{Pinhole inequalities and exactness}
+For $K=\left[\begin{smallmatrix}f_x&0&c_x\\0&f_y&c_y\\0&0&1\end{smallmatrix}\right]$ with $f_x,f_y>0$, let $R$ have rows $r_1,r_2,r_3$. Put $a=r_1X+t_1$, $b=r_2X+t_2$, $z=r_3X+t_3$. Projection is $u=f_xa/z+c_x$, $v=f_yb/z+c_y$ for $z>0$.
+
+For a pixel rectangle $u\in[u_-,u_+]$, $v\in[v_-,v_+]$, define $l_x=(u_--c_x)/f_x$, $h_x=(u_+-c_x)/f_x$ and analogously $l_y,h_y$.
+\begin{proposition}[G1; PROVED UNDER EXPLICIT ASSUMPTIONS]
+For fixed $K,R,t$ as above and $z\ge z_{\min}>0$, the pixel rectangle is exactly equivalent to
+\begin{align*}
+(r_1-h_xr_3)X&\le h_xt_3-t_1,&(-r_1+l_xr_3)X&\le t_1-l_xt_3,\\
+(r_2-h_yr_3)X&\le h_yt_3-t_2,&(-r_2+l_yr_3)X&\le t_2-l_yt_3.
+\end{align*}
+Cheirality is $-r_3X\le t_3-z_{\min}$. A depth claim $d_-\le z\le d_+$ is exactly the pair $r_3X\le d_+-t_3$, $-r_3X\le t_3-d_-$. Including $X\in B$ yields a compact convex polyhedron, possibly empty.
+\end{proposition}
+\begin{proof}
+Positive focal lengths preserve each pixel-bound inequality on subtracting the principal point and dividing. Positive $z$ preserves order when multiplying $l_x\le a/z\le h_x$ by $z$. Rearranging the upper and lower inequalities gives the displayed rows; the steps are reversible. The y-coordinate argument is identical. The affine depth inequalities rearrange directly. Every row is a closed half-space. Intersecting finitely many such sets with a closed bounded box is closed, bounded and convex. No assertion of nonemptiness follows.
+\end{proof}
+This is a classical fixed-camera bounded-error triangulation construction, not an original theorem.
+
+\paragraph{Physical soundness (G2).}
+If a physical point $X^*$ lies in $B$, all inlier projections lie in the supplied rectangles, all relevant depths exceed $z_{\min}$, and every imposed true depth lies in its supplied interval, then $X^*$ satisfies the assembled inequalities. This follows row by row from G1. Consequently a valid contradiction implies at least one premise or claim fails. It does not identify which one.
+
+\paragraph{Finite arithmetic.}
+The implementation converts input floats to their exact binary rationals before constructing rows (including intrinsic normalization). The numerical solver receives rounded copies, whereas the checker uses original rational rows. Thus exact algebraic soundness is independent of row-rounding by the solver. This does not enclose uncertain physical calibration. A proposed conservative extension for coefficient errors $|\Delta A_{ij}|\le e_{ij}$ and $|\Delta b_i|\le f_i$ on a box with $|X_j|\le M_j$ relaxes a nominal row to $\hat A_iX\le\hat b_i+f_i+\sum_j e_{ij}M_j$. This contains every potentially feasible true row, but deriving the coefficient error bounds from uncertain rotations is not implemented.
+
+\paragraph{Boundary and generalization audit.}
+Zero-width pixel intervals are permitted and may yield lower-dimensional feasible sets. Numerical point recovery may then fail, producing UNKNOWN. Zero or negative $z$ invalidates multiplication; zero focal lengths invalidate normalization. Nonzero skew maps a pixel rectangle to a parallelogram, not the independent normalized rectangle used here, so it is rejected. Euclidean range intervals introduce a norm; uncertain pose multiplies unknown rotation and point; distortion and unknown correspondence introduce nonlinear or discrete structure. These are outside G1. A finite $z_{\min}$ changes the physical domain and must be reported.
+\end{document}

@@ -1,0 +1,12 @@
+dataset: eth3d
+root: ${W3D_DATA_ROOT}
+scene: courtyard
+undistorted_pinhole: true
+depth_registered_to_rgb: true
+provenance: REQUIRED_pinhole_undistortion_and_registered_optical_z_reference_export
+cameras: dslr_calibration_undistorted/cameras.txt
+images_metadata: dslr_calibration_undistorted/images.txt
+images_root: images
+reference_pattern: reference_optical_z/{stem}.npy
+stride: 1
+

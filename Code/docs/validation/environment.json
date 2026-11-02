@@ -1,0 +1,71 @@
+{
+  "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+  "executable": "D:\\CVPR\\Code\\.venv-validation\\Scripts\\python.exe",
+  "platform": "Windows-10-10.0.26300-SP0",
+  "processor": "Intel64 Family 6 Model 154 Stepping 3, GenuineIntel",
+  "logical_cpus": 16,
+  "physical_cpus": 12,
+  "ram_bytes": 16782307328,
+  "dependencies": {
+    "numpy": "1.26.4",
+    "scipy": "1.11.1",
+    "Pillow": "12.0.0",
+    "PyYAML": "6.0.1",
+    "pytest": "8.4.2",
+    "matplotlib": "3.10.8",
+    "psutil": "7.1.3",
+    "opencv-python": "4.9.0.80",
+    "setuptools": "65.5.0",
+    "pip": "24.0",
+    "threadpoolctl": "3.6.0"
+  },
+  "threadpools": [
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libopenblas",
+      "filepath": "C:\\Users\\ranja\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\numpy.libs\\libopenblas64__v0.3.23-293-gc2f4bdbb-gcc_10_3_0-2bde3a66a51006b2b53eb373ff767a3f.dll",
+      "version": "0.3.23.dev",
+      "threading_layer": "pthreads",
+      "architecture": "Haswell"
+    }
+  ],
+  "environment": {
+    "CUDA_VISIBLE_DEVICES": "-1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "PYTEST_DISABLE_PLUGIN_AUTOLOAD": "1"
+  },
+  "environment_type": "local venv, system-site-packages; source imported with explicit PYTHONPATH; offline editable build blocked by missing wheel",
+  "network_installations": false,
+  "source_sha256": {
+    "src\\witness3d\\__init__.py": "974ba935e776f3db275fd6707824864f843b06f9df4957b6843fa3d5e3c12703",
+    "src\\witness3d\\__main__.py": "6a170fc866c867a1e5812daad308396f0940a23f2ecf55e56be39d5d67d23f10",
+    "src\\witness3d\\baselines.py": "46784a76fe814c32dbedbdd7dd3d30a5216e23291d6630cd6888221c83a1e547",
+    "src\\witness3d\\calibration.py": "39f52dfa7a7c19509984736221cc4b9873b1bf4c64e52f83b7f0c99a1f5c774a",
+    "src\\witness3d\\cli.py": "cbb4a99f09208977792ba02f584c1e3f97d5323c4e8f071a724f5c0350d8c7a9",
+    "src\\witness3d\\constraints.py": "599ef3fc0ee06338d47e98a73785ccd307ea1d29f5f8168d9affd472a215e7a4",
+    "src\\witness3d\\datasets.py": "62f1cf0400fbab572d8877a71fc71bcb3c4c3986656e508d3fb1d44e34ba64bf",
+    "src\\witness3d\\envelopes.py": "4d8f608df7ae9222a9742e402cee93136047c6162d3c458b8f847dfd916f9ce2",
+    "src\\witness3d\\exact.py": "db7f567e7139e862b4f48c8d6a135495e6938bc787ba40d4a491311f787e7a27",
+    "src\\witness3d\\experiments.py": "e6c4d218b04b8d348e76b4331e13f17c2fb49d0774746af8eb4a71c7b724de1e",
+    "src\\witness3d\\geometry.py": "d321e0efd93893c44d3db19f5434201f86c266266bdb977798e1bed5cb945c79",
+    "src\\witness3d\\graph.py": "89aaf4080fe318c9574d9cf26674ec859e6969744cd8be9b7fab456eaf70a053",
+    "src\\witness3d\\io.py": "f30c04631a9dd785b4fdd4a5eb707a920bb59728454de2a703a1b8cf196f7d70",
+    "src\\witness3d\\matching.py": "14a0ea41004f8b472cd111afb7fe7d0ba7b1ac166280635d31ca47f032bb9e5a",
+    "src\\witness3d\\metrics.py": "5059b49adf296fd7be81de2bd9d403044859a129e7ece69857806b8874bafd45",
+    "src\\witness3d\\models.py": "b65042b9ee7257bf394035165675906953626cf31a82ea56c1e263b907e37863",
+    "src\\witness3d\\observations.py": "f0166fe7de5f71c79e626ac24b1bbeab561f6879077399a82fc1fc1c8a7e98b3",
+    "src\\witness3d\\pipeline.py": "a10d7b12849427d4d2edda9ffe7ea646002a7c1722f19b5f85ef504c4753c1e4",
+    "src\\witness3d\\plotting.py": "a4eba3cb831fc533a471cf7d39c15597e4c06bb2d535aa23aeb4ece2195e59dd",
+    "src\\witness3d\\profiling.py": "1a1216d1dbc0713fa953813c933f51e1ab36f3398d42056bebe02fd81ae7b432",
+    "src\\witness3d\\reconcile.py": "cef122f81376ee92a0575a08b46f3d8394d4f0039031cff3c4523af1dc68a79c",
+    "src\\witness3d\\repair.py": "cf7fbd96380e41d1e35fb74eb879f04e6f95e9d8b4e304a4db52660801105b85",
+    "src\\witness3d\\solver.py": "a9517fb5607cc6dfee0b2a179a3d5819232f81c9e4d5d840e060d0bb60d0c1ce",
+    "src\\witness3d\\synthetic.py": "8c6013e592e4703073f2cdfe9635821f72c5f58a0e9584cea16eec3adb19a066",
+    "src\\witness3d\\verify.py": "607855c62205db965748d5cc465bd1b1669915ad1087bf93fc414059bc111a72",
+    "src\\witness3d\\witnesses.py": "1e6e8391edd716fade01c225f539563da8d78b5410c2a5b582a07c157ac9c463"
+  }
+}

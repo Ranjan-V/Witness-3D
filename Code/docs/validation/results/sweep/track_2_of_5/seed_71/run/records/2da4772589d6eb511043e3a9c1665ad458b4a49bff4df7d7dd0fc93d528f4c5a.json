@@ -1,0 +1,308 @@
+{
+  "schema_version": 1,
+  "run_signature": "05bc92dc59b17566ffa4b560b1c3861c877994e8fe0cba46d6e52eda29febcc4",
+  "track": "5",
+  "method": "local_all",
+  "original_depths": {
+    "5:1": 4.5,
+    "5:3": 4.5
+  },
+  "depths": {
+    "5:1": 4.5,
+    "5:3": 4.5
+  },
+  "state": "SELECTIVE_REPAIR",
+  "status_before": "VERIFIED_FEASIBLE",
+  "status_after": "VERIFIED_FEASIBLE",
+  "detected": [],
+  "edit_ids": [],
+  "artifacts": [
+    {
+      "schema_version": 1,
+      "system": {
+        "A": [
+          [
+            "1",
+            "0",
+            "0"
+          ],
+          [
+            "-1",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "-1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1"
+          ],
+          [
+            "0",
+            "0",
+            "-1"
+          ],
+          [
+            "1",
+            "0",
+            "-365641676487181/5277655813324800"
+          ],
+          [
+            "-1",
+            "0",
+            "23203299362851/351843720888320"
+          ],
+          [
+            "0",
+            "1",
+            "-39708386449237/10555311626649600"
+          ],
+          [
+            "0",
+            "-1",
+            "904802872081/2111062325329920"
+          ],
+          [
+            "0",
+            "0",
+            "-1"
+          ],
+          [
+            "0",
+            "0",
+            "1"
+          ],
+          [
+            "0",
+            "0",
+            "-1"
+          ],
+          [
+            "1",
+            "0",
+            "169724130017117/2638827906662400"
+          ],
+          [
+            "-1",
+            "0",
+            "-7140808921573/105553116266496"
+          ],
+          [
+            "0",
+            "1",
+            "-10344082677539/2638827906662400"
+          ],
+          [
+            "0",
+            "-1",
+            "515996551777/879609302220800"
+          ],
+          [
+            "0",
+            "0",
+            "-1"
+          ],
+          [
+            "0",
+            "0",
+            "1"
+          ],
+          [
+            "0",
+            "0",
+            "-1"
+          ]
+        ],
+        "b": [
+          "3",
+          "3",
+          "3",
+          "3",
+          "10",
+          "-3602879701896397/36028797018963968",
+          "-5404319552844595/18014398509481984",
+          "5404319552844595/18014398509481984",
+          "0",
+          "0",
+          "-5764607523034235/576460752303423488",
+          "165372178317044613/36028797018963968",
+          "-158886994853631099/36028797018963968",
+          "5404319552844595/18014398509481984",
+          "-5404319552844595/18014398509481984",
+          "0",
+          "0",
+          "-5764607523034235/576460752303423488",
+          "165372178317044613/36028797018963968",
+          "-158886994853631099/36028797018963968"
+        ],
+        "box": {
+          "lower": [
+            "-3",
+            "-3",
+            "3602879701896397/36028797018963968"
+          ],
+          "upper": [
+            "3",
+            "3",
+            "10"
+          ]
+        },
+        "tags": [
+          {
+            "track": "",
+            "observation": "",
+            "camera": "",
+            "kind": "domain_upper_0"
+          },
+          {
+            "track": "",
+            "observation": "",
+            "camera": "",
+            "kind": "domain_lower_0"
+          },
+          {
+            "track": "",
+            "observation": "",
+            "camera": "",
+            "kind": "domain_upper_1"
+          },
+          {
+            "track": "",
+            "observation": "",
+            "camera": "",
+            "kind": "domain_lower_1"
+          },
+          {
+            "track": "",
+            "observation": "",
+            "camera": "",
+            "kind": "domain_upper_2"
+          },
+          {
+            "track": "",
+            "observation": "",
+            "camera": "",
+            "kind": "domain_lower_2"
+          },
+          {
+            "track": "5",
+            "observation": "5:1",
+            "camera": "1",
+            "kind": "pixel_u_upper"
+          },
+          {
+            "track": "5",
+            "observation": "5:1",
+            "camera": "1",
+            "kind": "pixel_u_lower"
+          },
+          {
+            "track": "5",
+            "observation": "5:1",
+            "camera": "1",
+            "kind": "pixel_v_upper"
+          },
+          {
+            "track": "5",
+            "observation": "5:1",
+            "camera": "1",
+            "kind": "pixel_v_lower"
+          },
+          {
+            "track": "5",
+            "observation": "5:1",
+            "camera": "1",
+            "kind": "cheirality"
+          },
+          {
+            "track": "5",
+            "observation": "5:1",
+            "camera": "1",
+            "kind": "depth_upper"
+          },
+          {
+            "track": "5",
+            "observation": "5:1",
+            "camera": "1",
+            "kind": "depth_lower"
+          },
+          {
+            "track": "5",
+            "observation": "5:3",
+            "camera": "3",
+            "kind": "pixel_u_upper"
+          },
+          {
+            "track": "5",
+            "observation": "5:3",
+            "camera": "3",
+            "kind": "pixel_u_lower"
+          },
+          {
+            "track": "5",
+            "observation": "5:3",
+            "camera": "3",
+            "kind": "pixel_v_upper"
+          },
+          {
+            "track": "5",
+            "observation": "5:3",
+            "camera": "3",
+            "kind": "pixel_v_lower"
+          },
+          {
+            "track": "5",
+            "observation": "5:3",
+            "camera": "3",
+            "kind": "cheirality"
+          },
+          {
+            "track": "5",
+            "observation": "5:3",
+            "camera": "3",
+            "kind": "depth_upper"
+          },
+          {
+            "track": "5",
+            "observation": "5:3",
+            "camera": "3",
+            "kind": "depth_lower"
+          }
+        ]
+      },
+      "certificate": {
+        "kind": "point",
+        "point": [
+          "28311518538492557737764154293/2540354220304425018106914537472",
+          "42919361859904175846983464803/2540354220304425018106914537472",
+          "81064793292668925/18050302374948224"
+        ]
+      }
+    }
+  ],
+  "geometry_residual_flags": [],
+  "z_min": 0.01,
+  "measurement_status": "VERIFIED_FEASIBLE",
+  "reason": "No checked full-system contradiction; preserve predictions",
+  "conflict": null,
+  "envelopes": {},
+  "envelope_trace_checks": {},
+  "efficiency": {
+    "wall_seconds": 0.008888599986676127,
+    "cpu_seconds": 0.015625,
+    "peak_rss_bytes_sampled": 94810112,
+    "rss_sampling_period_seconds": 0.02
+  },
+  "certificate_checks": [
+    true
+  ]
+}

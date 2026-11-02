@@ -1,0 +1,34 @@
+{
+  "methods": [
+    "none",
+    "fusion",
+    "triangulation",
+    "robust_triangulation",
+    "ransac",
+    "robust_depth",
+    "local",
+    "local_all",
+    "global"
+  ],
+  "solver": {
+    "time_limit": 2.0,
+    "proposal_tolerance": 1e-08,
+    "recovery_rows": 12
+  },
+  "repair": {
+    "q": 0,
+    "max_hypotheses": 64,
+    "extraction": "dual",
+    "localize": true,
+    "save_evidence": true
+  },
+  "global": {
+    "block_tracks": 4,
+    "delta": 1.0,
+    "ridge": 0.001,
+    "spatial": 0.01,
+    "max_iterations": 30
+  },
+  "seed": 23,
+  "ransac_threshold": 0.7071067811865476
+}

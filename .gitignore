@@ -1,0 +1,38 @@
+# Local runtimes and generated interpreter/build caches
+**/.venv*/
+**/venv/
+**/env/
+**/__pycache__/
+*.py[cod]
+**/.pytest_cache/
+**/*.egg-info/
+**/build/
+**/dist/
+**/.mypy_cache/
+**/.ruff_cache/
+# Credentials and machine-local settings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+**/.aws/
+**/.ssh/
+**/.kaggle/
+**/kaggle.json
+**/.idea/
+**/.vscode/
+# External assets; scientific evidence under docs is deliberately retained
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+*.onnx
+/data/
+/datasets/
+/checkpoints/
+/kaggle/input/
+/kaggle/working/
+/Code/data/
+/Code/checkpoints/
+/Code/outputs/

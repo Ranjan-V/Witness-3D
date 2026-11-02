@@ -1,0 +1,30 @@
+{
+  "seeds": [
+    11,
+    23,
+    37,
+    53,
+    71
+  ],
+  "tracks": 12,
+  "views": 5,
+  "scenarios": {
+    "continuous": {},
+    "near_zero": {
+      "baseline": 0.001
+    },
+    "contamination": {
+      "outlier_rate": 0.2
+    },
+    "pose_uncertainty": {
+      "pose_translation_sigma": 0.01
+    },
+    "partial_occlusion": {},
+    "heterogeneous_quality": {},
+    "misleading_confidence": {}
+  },
+  "error": "log depth N(0,.08^2) plus signed .35 with probability .25",
+  "width": "3 percent of prediction",
+  "q": 1,
+  "occlusion": "missing views only"
+}

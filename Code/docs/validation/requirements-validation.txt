@@ -1,0 +1,12 @@
+# Observed versions; no network install was performed. Python 3.11.9.
+numpy==1.26.4
+scipy==1.11.1
+Pillow==12.0.0
+PyYAML==6.0.1
+pytest==8.4.2
+matplotlib==3.10.8
+psutil==7.1.3
+opencv-python==4.9.0.80
+setuptools==65.5.0
+pip==24.0
+threadpoolctl==3.6.0

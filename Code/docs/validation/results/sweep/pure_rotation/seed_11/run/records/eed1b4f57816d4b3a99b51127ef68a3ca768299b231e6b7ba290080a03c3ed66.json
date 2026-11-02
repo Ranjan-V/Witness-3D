@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "run_signature": "212a7ee5e8d459364930ad9d3959f6f6f539227efc5057d3b1363213dbc729ad",
+  "track": "0",
+  "method": "triangulation",
+  "original_depths": {
+    "0:0": 4.515076353963122,
+    "0:1": 4.5,
+    "0:2": 2.987249299851844
+  },
+  "depths": {
+    "0:0": 4.515076353963122,
+    "0:1": 4.5,
+    "0:2": 2.987249299851844
+  },
+  "state": "BEHIND_CAMERA",
+  "status_before": "VERIFIED_CONTRADICTION",
+  "status_after": "VERIFIED_CONTRADICTION",
+  "detected": [],
+  "edit_ids": [],
+  "artifacts": [],
+  "geometry_residual_flags": [],
+  "z_min": 0.01,
+  "efficiency": {
+    "wall_seconds": 0.005220699997153133,
+    "cpu_seconds": 0.0,
+    "peak_rss_bytes_sampled": 97173504,
+    "rss_sampling_period_seconds": 0.02
+  },
+  "certificate_checks": []
+}

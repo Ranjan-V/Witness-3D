@@ -1,0 +1,8 @@
+cpu_threads: 2
+worker_processes: 1
+depth_devices: [cuda:0]
+depth_batch_size: 2
+max_pixels: 500000
+target_host_ram_gb: 10
+note: One process per device for disjoint shards. Two T4 memories are independent. Reduce batch size after measuring.
+

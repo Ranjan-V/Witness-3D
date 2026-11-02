@@ -1,0 +1,37 @@
+\documentclass[11pt]{article}
+\usepackage{amsmath,amssymb,booktabs}
+\begin{document}
+\section*{Witness3D: notation specification (not a manuscript)}
+All claims concern finite supplied inputs; there are no experimental results.
+\begin{center}\begin{tabular}{ll}
+$i,j,k$ & observation, target observation, track index\\
+$X_k\in\mathbb R^3$ & static world point (meters)\\
+$R_i,t_i$ & world-to-camera rotation and translation, $x_i=R_iX_k+t_i$\\
+$r_{i,a},t_{i,a}$ & row $a$ of $R_i$, component $a$ of $t_i$\\
+$K_i$ & zero-skew pinhole intrinsic matrix, positive focal lengths\\
+$p_{ki}=(u,v)$ & measured pixel center; integer-center convention\\
+$\epsilon_{ki}$ & nonnegative per-axis pixel radius\\
+$[l_x,h_x]\times[l_y,h_y]$ & normalized image-coordinate rectangle\\
+$z_i(X)=r_{i,3}X+t_{i,3}$ & camera optical-axis depth, not range\\
+$\hat d_{ki},s_{ki}$ & metric depth center and fixed interval half-width\\
+$D_{ki}=[\hat d_{ki}-s_{ki},\hat d_{ki}+s_{ki}]$ & prediction claim, positive endpoints\\
+$z_{\min}>0$ & declared positive-depth margin\\
+$B=[L_B,U_B]\subset\mathbb R^3$ & finite closed world-domain box\\
+$P_{\rm pix},P_{\rm all}$ & pixel-only and pixel-plus-depth polytopes in $B$\\
+$A\in\mathbb Q^{m\times3},b\in\mathbb Q^m$ & exact assembled inequalities\\
+$y\in\mathbb Q_+^m$ & proposed nonnegative multiplier vector\\
+$q$ & maximum number of wrong auxiliary observations\\
+$S$ & deleted auxiliary-observation set, $|S|=q$\\
+$P_S$ & target-preserving depth-free polytope for hypothesis $S$\\
+$J_j=[L_j,U_j]$ & outer hull of target depth over possible $P_S$\\
+$\Pi_J(d)=\min(U,\max(L,d))$ & scalar closed-interval projection\\
+$z^*,X^*$ & reference physical values, evaluation only\\
+$w_{ki},E$ & nonnegative reliability weights, inter-track graph edges
+\end{tabular}\end{center}
+\paragraph{Conventions.}
+Camera axes are right/down/forward. A camera-to-world pose has rotation $R_{wc}$ and center $C$; its inverse is $R=R_{wc}^{\mathsf T}$, $t=-RC$. Pixels are undistorted, on the original returned depth grid. Reference depth is never part of a repair or detection input.
+\paragraph{Outcome semantics.}
+VERIFIED FEASIBLE means an exactly checked point exists for the encoded system. VERIFIED CONTRADICTION means no point exists in its declared domain, established by an exact checker. UNKNOWN includes all unverified numerical results. Physical attribution requires the separate trust assumptions.
+\paragraph{Uncertainty.}
+Deterministic containment is an assumption on every true inlier measurement. A statistical interval is not a deterministic bound. $s_{ki}$ is not assumed calibrated. Cameras represented by finite floats are interpreted as exact rational input numbers for algebraic assembly; physical calibration uncertainty is separate.
+\end{document}

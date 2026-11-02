@@ -1,0 +1,33 @@
+\documentclass[11pt]{article}
+\usepackage{amsmath,amssymb,amsthm}
+\newtheorem{proposition}{Proposition}
+\begin{document}
+\section*{Independent finite-input certificates}
+\paragraph{Classical alternative (C1).}
+For finite real $A,b$, exactly one of $\exists X:AX\le b$ and $\exists y\ge0:A^{\mathsf T}y=0,\ b^{\mathsf T}y<0$ holds (Farkas' lemma). Sufficiency follows by multiplying feasible rows by $y$: $0=y^{\mathsf T}AX\le y^{\mathsf T}b<0$, a contradiction. Necessity is the classical polyhedral separation theorem, invoked rather than claimed as an original proof. The software need not recover such a ray for every infeasible system.
+
+Define $\mu_B(r)=\sum_j\min(r_jL_{B,j},r_jU_{B,j})$, the exact minimum of $r^{\mathsf T}X$ over the finite box $B$.
+\begin{proposition}[C2; PROVED UNDER EXPLICIT ASSUMPTIONS]
+For exact rational $A,b,B$ and rational $y\ge0$, let $r=A^{\mathsf T}y$, $\beta=b^{\mathsf T}y$. If $\mu_B(r)>\beta$, no $X\in B$ satisfies $AX\le b$.
+\end{proposition}
+\begin{proof}
+Each coordinate minimizes independently on its endpoint of a product box, so $r^{\mathsf T}X\ge\mu_B(r)$. Feasibility and nonnegative multipliers imply $r^{\mathsf T}X=y^{\mathsf T}AX\le y^{\mathsf T}b=\beta$, contradicting the strict inequality. All comparisons can be exact rational comparisons. No small-residual tolerance is used.
+\end{proof}
+The domain is part of this certificate. A residual certificate can be explained by adding suitable domain-face multipliers to cancel $r$; omitted domain faces must not be hidden in witness-size reporting.
+
+\begin{proposition}[C3; PROVED UNDER EXPLICIT ASSUMPTIONS]
+For an affine query $c^{\mathsf T}X+t$ and any rational $y\ge0$, set $r=A^{\mathsf T}y-c$. Every feasible $X\in B$ satisfies
+\[c^{\mathsf T}X+t\le b^{\mathsf T}y-\mu_B(r)+t.\]
+Using the same construction for $-c$ gives a lower bound. The bounds remain valid when the feasible set is empty.
+\end{proposition}
+\begin{proof}
+$c^{\mathsf T}X=y^{\mathsf T}AX-r^{\mathsf T}X\le y^{\mathsf T}b-\mu_B(r)$. Add $t$. Apply to $-c$ and negate for the lower bound.
+\end{proof}
+Taking $y=0$ recovers the domain-only support bound and provides a conservative fallback even if the LP fails. For minimization, SciPy inequality marginals have the opposite sign to these nonnegative multipliers; the implementation negates the marginals from minimizing $-c$ and independently checks the result. Any sign error may weaken a bound but cannot bypass the nonnegativity/checker gate.
+
+\paragraph{Point certificate (C4; PROVED).}
+An exact rational candidate $x$ is a feasible certificate if direct checks show $x\in B$ and $A_ix\le b_i$ for every row. A float point converted to its exact rational value can fail an equality-width face despite small numerical residual. Recovery may solve active 3-row intersections rationally; failure returns UNKNOWN, not infeasible.
+
+\paragraph{Scope and rejection rules.}
+NaN, infinity, negative multipliers, wrong vector lengths, altered domains and mismatched serialized rows are rejected. The artifact includes exact rows and box, not only a hash. Verification is self-contained and imports no numerical solver. Hashes authenticate reproducibility only, not physical truth. A tolerance is useful to propose active sets; it never changes a strict exact comparison. Normalizing $\sum y_i=1$ improves proposal scaling and is not required for validity.
+\end{document}

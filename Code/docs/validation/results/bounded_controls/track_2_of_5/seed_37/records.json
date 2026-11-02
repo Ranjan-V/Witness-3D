@@ -1,0 +1,610 @@
+[
+  {
+    "schema_version": 1,
+    "run_signature": "fabb11fbf929038f2aa55281642755f592fcc1196745acbf10027fdbea475aef",
+    "track": "0",
+    "method": "bounded_robust_triangulation",
+    "original_depths": {
+      "0:0": 3.0,
+      "0:1": 3.0
+    },
+    "depths": {
+      "0:0": 2.978722605682836,
+      "0:1": 2.978722605682836
+    },
+    "state": "NUMERICALLY_CONVERGED",
+    "status_before": "VERIFIED_FEASIBLE",
+    "status_after": "VERIFIED_FEASIBLE",
+    "detected": [],
+    "edit_ids": [
+      "0:0",
+      "0:1"
+    ],
+    "artifacts": [],
+    "geometry_residual_flags": [],
+    "z_min": 0.01,
+    "efficiency": {
+      "wall_seconds": 0.007889700005762279,
+      "cpu_seconds": 0.0,
+      "peak_rss_bytes_sampled": 84430848,
+      "rss_sampling_period_seconds": 0.02
+    },
+    "certificate_checks": [],
+    "reason": "`xtol` termination condition is satisfied.",
+    "point": [
+      -0.165120000750961,
+      0.23313626826741546,
+      2.978722605682836
+    ]
+  },
+  {
+    "schema_version": 1,
+    "run_signature": "fabb11fbf929038f2aa55281642755f592fcc1196745acbf10027fdbea475aef",
+    "track": "0",
+    "method": "bounded_robust_depth",
+    "original_depths": {
+      "0:0": 3.0,
+      "0:1": 3.0
+    },
+    "depths": {
+      "0:0": 2.9943145437847196,
+      "0:1": 2.9943145437847196
+    },
+    "state": "NUMERICALLY_CONVERGED",
+    "status_before": "VERIFIED_FEASIBLE",
+    "status_after": "VERIFIED_FEASIBLE",
+    "detected": [],
+    "edit_ids": [
+      "0:0",
+      "0:1"
+    ],
+    "artifacts": [],
+    "geometry_residual_flags": [],
+    "z_min": 0.01,
+    "efficiency": {
+      "wall_seconds": 0.01094460001331754,
+      "cpu_seconds": 0.015625,
+      "peak_rss_bytes_sampled": 84447232,
+      "rss_sampling_period_seconds": 0.02
+    },
+    "certificate_checks": [],
+    "reason": "`ftol` termination condition is satisfied.",
+    "point": [
+      -0.16362881412399577,
+      0.23435660555466992,
+      2.9943145437847196
+    ]
+  },
+  {
+    "schema_version": 1,
+    "run_signature": "fabb11fbf929038f2aa55281642755f592fcc1196745acbf10027fdbea475aef",
+    "track": "1",
+    "method": "bounded_robust_triangulation",
+    "original_depths": {
+      "1:1": 4.5,
+      "1:3": 4.5
+    },
+    "depths": {
+      "1:1": 4.530794014771276,
+      "1:3": 4.530794014771276
+    },
+    "state": "NUMERICALLY_CONVERGED",
+    "status_before": "VERIFIED_FEASIBLE",
+    "status_after": "VERIFIED_FEASIBLE",
+    "detected": [],
+    "edit_ids": [
+      "1:1",
+      "1:3"
+    ],
+    "artifacts": [],
+    "geometry_residual_flags": [],
+    "z_min": 0.01,
+    "efficiency": {
+      "wall_seconds": 0.009056000009877607,
+      "cpu_seconds": 0.0,
+      "peak_rss_bytes_sampled": 84430848,
+      "rss_sampling_period_seconds": 0.02
+    },
+    "certificate_checks": [],
+    "reason": "`gtol` termination condition is satisfied.",
+    "point": [
+      0.5618371007288422,
+      0.04276054141538671,
+      4.530794014771276
+    ]
+  },
+  {
+    "schema_version": 1,
+    "run_signature": "fabb11fbf929038f2aa55281642755f592fcc1196745acbf10027fdbea475aef",
+    "track": "1",
+    "method": "bounded_robust_depth",
+    "original_depths": {
+      "1:1": 4.5,
+      "1:3": 4.5
+    },
+    "depths": {
+      "1:1": 4.511909280141424,
+      "1:3": 4.511909280141424
+    },
+    "state": "NUMERICALLY_CONVERGED",
+    "status_before": "VERIFIED_FEASIBLE",
+    "status_after": "VERIFIED_FEASIBLE",
+    "detected": [],
+    "edit_ids": [
+      "1:1",
+      "1:3"
+    ],
+    "artifacts": [],
+    "geometry_residual_flags": [],
+    "z_min": 0.01,
+    "efficiency": {
+      "wall_seconds": 0.015733900014311075,
+      "cpu_seconds": 0.0,
+      "peak_rss_bytes_sampled": 84447232,
+      "rss_sampling_period_seconds": 0.02
+    },
+    "certificate_checks": [],
+    "reason": "`gtol` termination condition is satisfied.",
+    "point": [
+      0.5594953158936921,
+      0.04258231184356686,
+      4.511909280141424
+    ]
+  },
+  {
+    "schema_version": 1,
+    "run_signature": "fabb11fbf929038f2aa55281642755f592fcc1196745acbf10027fdbea475aef",
+    "track": "2",
+    "method": "bounded_robust_triangulation",
+    "original_depths": {
+      "2:2": 4.5,
+      "2:3": 3.0
+    },
+    "depths": {
+      "2:2": 3.0256115249957354,
+      "2:3": 3.0256115249957354
+    },
+    "state": "NUMERICALLY_CONVERGED",
+    "status_before": "VERIFIED_CONTRADICTION",
+    "status_after": "VERIFIED_FEASIBLE",
+    "detected": [],
+    "edit_ids": [
+      "2:2",
+      "2:3"
+    ],
+    "artifacts": [],
+    "geometry_residual_flags": [],
+    "z_min": 0.01,
+    "efficiency": {
+      "wall_seconds": 0.012673999997787178,
+      "cpu_seconds": 0.03125,
+      "peak_rss_bytes_sampled": 84447232,
+      "rss_sampling_period_seconds": 0.02
+    },
+    "certificate_checks": [],
+    "reason": "`xtol` termination condition is satisfied.",
+    "point": [
+      -0.013485702882616099,
+      0.03394597720957169,
+      3.0256115249957354
+    ]
+  },
+  {
+    "schema_version": 1,
+    "run_signature": "fabb11fbf929038f2aa55281642755f592fcc1196745acbf10027fdbea475aef",
+    "track": "2",
+    "method": "bounded_robust_depth",
+    "original_depths": {
+      "2:2": 4.5,
+      "2:3": 3.0
+    },
+    "depths": {
+      "2:2": 3.0341249765442053,
+      "2:3": 3.0341249765442053
+    },
+    "state": "NUMERICALLY_CONVERGED",
+    "status_before": "VERIFIED_CONTRADICTION",
+    "status_after": "VERIFIED_FEASIBLE",
+    "detected": [],
+    "edit_ids": [
+      "2:2",
+      "2:3"
+    ],
+    "artifacts": [],
+    "geometry_residual_flags": [],
+    "z_min": 0.01,
+    "efficiency": {
+      "wall_seconds": 0.011250799987465143,
+      "cpu_seconds": 0.015625,
+      "peak_rss_bytes_sampled": 84455424,
+      "rss_sampling_period_seconds": 0.02
+    },
+    "certificate_checks": [],
+    "reason": "`ftol` termination condition is satisfied.",
+    "point": [
+      -0.01394571818825976,
+      0.034041494241347045,
+      3.0341249765442053
+    ]
+  },
+  {
+    "schema_version": 1,
+    "run_signature": "fabb11fbf929038f2aa55281642755f592fcc1196745acbf10027fdbea475aef",
+    "track": "3",
+    "method": "bounded_robust_triangulation",
+    "original_depths": {
+      "3:1": 4.5,
+      "3:2": 4.5
+    },
+    "depths": {
+      "3:1": 4.554689950731775,
+      "3:2": 4.554689950731775
+    },
+    "state": "NUMERICALLY_CONVERGED",
+    "status_before": "VERIFIED_FEASIBLE",
+    "status_after": "VERIFIED_FEASIBLE",
+    "detected": [],
+    "edit_ids": [
+      "3:1",
+      "3:2"
+    ],
+    "artifacts": [],
+    "geometry_residual_flags": [],
+    "z_min": 0.01,
+    "efficiency": {
+      "wall_seconds": 0.0077738999971188605,
+      "cpu_seconds": 0.015625,
+      "peak_rss_bytes_sampled": 84439040,
+      "rss_sampling_period_seconds": 0.02
+    },
+    "certificate_checks": [],
+    "reason": "`gtol` termination condition is satisfied.",
+    "point": [
+      -0.4761800918421018,
+      0.38662798677422394,
+      4.554689950731775
+    ]
+  },
+  {
+    "schema_version": 1,
+    "run_signature": "fabb11fbf929038f2aa55281642755f592fcc1196745acbf10027fdbea475aef",
+    "track": "3",
+    "method": "bounded_robust_depth",
+    "original_depths": {
+      "3:1": 4.5,
+      "3:2": 4.5
+    },
+    "depths": {
+      "3:1": 4.507433370391022,
+      "3:2": 4.507433370391022
+    },
+    "state": "NUMERICALLY_CONVERGED",
+    "status_before": "VERIFIED_FEASIBLE",
+    "status_after": "VERIFIED_FEASIBLE",
+    "detected": [],
+    "edit_ids": [
+      "3:1",
+      "3:2"
+    ],
+    "artifacts": [],
+    "geometry_residual_flags": [],
+    "z_min": 0.01,
+    "efficiency": {
+      "wall_seconds": 0.013899199984734878,
+      "cpu_seconds": 0.0,
+      "peak_rss_bytes_sampled": 84455424,
+      "rss_sampling_period_seconds": 0.02
+    },
+    "certificate_checks": [],
+    "reason": "`ftol` termination condition is satisfied.",
+    "point": [
+      -0.4727958536877373,
+      0.382616579473925,
+      4.507433370391022
+    ]
+  },
+  {
+    "schema_version": 1,
+    "run_signature": "fabb11fbf929038f2aa55281642755f592fcc1196745acbf10027fdbea475aef",
+    "track": "4",
+    "method": "bounded_robust_triangulation",
+    "original_depths": {
+      "4:1": 3.0,
+      "4:3": 3.0
+    },
+    "depths": {
+      "4:1": 3.0062737980651746,
+      "4:3": 3.0062737980651746
+    },
+    "state": "NUMERICALLY_CONVERGED",
+    "status_before": "VERIFIED_FEASIBLE",
+    "status_after": "VERIFIED_FEASIBLE",
+    "detected": [],
+    "edit_ids": [
+      "4:1",
+      "4:3"
+    ],
+    "artifacts": [],
+    "geometry_residual_flags": [],
+    "z_min": 0.01,
+    "efficiency": {
+      "wall_seconds": 0.013243900000816211,
+      "cpu_seconds": 0.015625,
+      "peak_rss_bytes_sampled": 84455424,
+      "rss_sampling_period_seconds": 0.02
+    },
+    "certificate_checks": [],
+    "reason": "`gtol` termination condition is satisfied.",
+    "point": [
+      0.24624568162835977,
+      0.14860700371986513,
+      3.0062737980651746
+    ]
+  },
+  {
+    "schema_version": 1,
+    "run_signature": "fabb11fbf929038f2aa55281642755f592fcc1196745acbf10027fdbea475aef",
+    "track": "4",
+    "method": "bounded_robust_depth",
+    "original_depths": {
+      "4:1": 3.0,
+      "4:3": 3.0
+    },
+    "depths": {
+      "4:1": 3.003693793075236,
+      "4:3": 3.003693793075236
+    },
+    "state": "NUMERICALLY_CONVERGED",
+    "status_before": "VERIFIED_FEASIBLE",
+    "status_after": "VERIFIED_FEASIBLE",
+    "detected": [],
+    "edit_ids": [
+      "4:1",
+      "4:3"
+    ],
+    "artifacts": [],
+    "geometry_residual_flags": [],
+    "z_min": 0.01,
+    "efficiency": {
+      "wall_seconds": 0.011053199996240437,
+      "cpu_seconds": 0.015625,
+      "peak_rss_bytes_sampled": 84455424,
+      "rss_sampling_period_seconds": 0.02
+    },
+    "certificate_checks": [],
+    "reason": "`gtol` termination condition is satisfied.",
+    "point": [
+      0.2460343518793001,
+      0.14847946816026977,
+      3.003693793075236
+    ]
+  },
+  {
+    "schema_version": 1,
+    "run_signature": "fabb11fbf929038f2aa55281642755f592fcc1196745acbf10027fdbea475aef",
+    "track": "5",
+    "method": "bounded_robust_triangulation",
+    "original_depths": {
+      "5:3": 6.75,
+      "5:4": 4.5
+    },
+    "depths": {
+      "5:3": 4.557018957931809,
+      "5:4": 4.557018957931809
+    },
+    "state": "NUMERICALLY_CONVERGED",
+    "status_before": "VERIFIED_CONTRADICTION",
+    "status_after": "VERIFIED_FEASIBLE",
+    "detected": [],
+    "edit_ids": [
+      "5:3",
+      "5:4"
+    ],
+    "artifacts": [],
+    "geometry_residual_flags": [],
+    "z_min": 0.01,
+    "efficiency": {
+      "wall_seconds": 0.01179650000995025,
+      "cpu_seconds": 0.015625,
+      "peak_rss_bytes_sampled": 84455424,
+      "rss_sampling_period_seconds": 0.02
+    },
+    "certificate_checks": [],
+    "reason": "`gtol` termination condition is satisfied.",
+    "point": [
+      0.47134466082977855,
+      -0.23534246585229532,
+      4.557018957931809
+    ]
+  },
+  {
+    "schema_version": 1,
+    "run_signature": "fabb11fbf929038f2aa55281642755f592fcc1196745acbf10027fdbea475aef",
+    "track": "5",
+    "method": "bounded_robust_depth",
+    "original_depths": {
+      "5:3": 6.75,
+      "5:4": 4.5
+    },
+    "depths": {
+      "5:3": 4.559305339825743,
+      "5:4": 4.559305339825743
+    },
+    "state": "NUMERICALLY_CONVERGED",
+    "status_before": "VERIFIED_CONTRADICTION",
+    "status_after": "VERIFIED_FEASIBLE",
+    "detected": [],
+    "edit_ids": [
+      "5:3",
+      "5:4"
+    ],
+    "artifacts": [],
+    "geometry_residual_flags": [],
+    "z_min": 0.01,
+    "efficiency": {
+      "wall_seconds": 0.009894000017084181,
+      "cpu_seconds": 0.0,
+      "peak_rss_bytes_sampled": 84455424,
+      "rss_sampling_period_seconds": 0.02
+    },
+    "certificate_checks": [],
+    "reason": "`ftol` termination condition is satisfied.",
+    "point": [
+      0.47135537003386585,
+      -0.23546054364783744,
+      4.559305339825743
+    ]
+  },
+  {
+    "schema_version": 1,
+    "run_signature": "fabb11fbf929038f2aa55281642755f592fcc1196745acbf10027fdbea475aef",
+    "track": "6",
+    "method": "bounded_robust_triangulation",
+    "original_depths": {
+      "6:1": 3.0,
+      "6:2": 3.0
+    },
+    "depths": {
+      "6:1": 3.01415634421743,
+      "6:2": 3.01415634421743
+    },
+    "state": "NUMERICALLY_CONVERGED",
+    "status_before": "VERIFIED_FEASIBLE",
+    "status_after": "VERIFIED_FEASIBLE",
+    "detected": [],
+    "edit_ids": [
+      "6:1",
+      "6:2"
+    ],
+    "artifacts": [],
+    "geometry_residual_flags": [],
+    "z_min": 0.01,
+    "efficiency": {
+      "wall_seconds": 0.008909500000299886,
+      "cpu_seconds": 0.015625,
+      "peak_rss_bytes_sampled": 84455424,
+      "rss_sampling_period_seconds": 0.02
+    },
+    "certificate_checks": [],
+    "reason": "`gtol` termination condition is satisfied.",
+    "point": [
+      -0.404622663371506,
+      -0.13005505325727712,
+      3.01415634421743
+    ]
+  },
+  {
+    "schema_version": 1,
+    "run_signature": "fabb11fbf929038f2aa55281642755f592fcc1196745acbf10027fdbea475aef",
+    "track": "6",
+    "method": "bounded_robust_depth",
+    "original_depths": {
+      "6:1": 3.0,
+      "6:2": 3.0
+    },
+    "depths": {
+      "6:1": 3.0037240874334863,
+      "6:2": 3.0037240874334863
+    },
+    "state": "NUMERICALLY_CONVERGED",
+    "status_before": "VERIFIED_FEASIBLE",
+    "status_after": "VERIFIED_FEASIBLE",
+    "detected": [],
+    "edit_ids": [
+      "6:1",
+      "6:2"
+    ],
+    "artifacts": [],
+    "geometry_residual_flags": [],
+    "z_min": 0.01,
+    "efficiency": {
+      "wall_seconds": 0.011666500009596348,
+      "cpu_seconds": 0.015625,
+      "peak_rss_bytes_sampled": 84455424,
+      "rss_sampling_period_seconds": 0.02
+    },
+    "certificate_checks": [],
+    "reason": "Both `ftol` and `xtol` termination conditions are satisfied.",
+    "point": [
+      -0.403741392228289,
+      -0.12960492142711091,
+      3.0037240874334863
+    ]
+  },
+  {
+    "schema_version": 1,
+    "run_signature": "fabb11fbf929038f2aa55281642755f592fcc1196745acbf10027fdbea475aef",
+    "track": "7",
+    "method": "bounded_robust_triangulation",
+    "original_depths": {
+      "7:1": 4.5,
+      "7:2": 6.75
+    },
+    "depths": {
+      "7:1": 4.474963882711701,
+      "7:2": 4.474963882711701
+    },
+    "state": "NUMERICALLY_CONVERGED",
+    "status_before": "VERIFIED_CONTRADICTION",
+    "status_after": "VERIFIED_FEASIBLE",
+    "detected": [],
+    "edit_ids": [
+      "7:1",
+      "7:2"
+    ],
+    "artifacts": [],
+    "geometry_residual_flags": [],
+    "z_min": 0.01,
+    "efficiency": {
+      "wall_seconds": 0.012098600011086091,
+      "cpu_seconds": 0.0,
+      "peak_rss_bytes_sampled": 84455424,
+      "rss_sampling_period_seconds": 0.02
+    },
+    "certificate_checks": [],
+    "reason": "`gtol` termination condition is satisfied.",
+    "point": [
+      -0.4530347363990987,
+      -0.29267181670720627,
+      4.474963882711701
+    ]
+  },
+  {
+    "schema_version": 1,
+    "run_signature": "fabb11fbf929038f2aa55281642755f592fcc1196745acbf10027fdbea475aef",
+    "track": "7",
+    "method": "bounded_robust_depth",
+    "original_depths": {
+      "7:1": 4.5,
+      "7:2": 6.75
+    },
+    "depths": {
+      "7:1": 4.539707852353128,
+      "7:2": 4.539707852353128
+    },
+    "state": "NUMERICALLY_CONVERGED",
+    "status_before": "VERIFIED_CONTRADICTION",
+    "status_after": "VERIFIED_FEASIBLE",
+    "detected": [],
+    "edit_ids": [
+      "7:1",
+      "7:2"
+    ],
+    "artifacts": [],
+    "geometry_residual_flags": [],
+    "z_min": 0.01,
+    "efficiency": {
+      "wall_seconds": 0.011327199987135828,
+      "cpu_seconds": 0.03125,
+      "peak_rss_bytes_sampled": 84439040,
+      "rss_sampling_period_seconds": 0.02
+    },
+    "certificate_checks": [],
+    "reason": "`ftol` termination condition is satisfied.",
+    "point": [
+      -0.4574190559796927,
+      -0.29690620512070237,
+      4.539707852353128
+    ]
+  }
+]

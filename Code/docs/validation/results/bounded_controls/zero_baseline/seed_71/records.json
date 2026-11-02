@@ -1,0 +1,658 @@
+[
+  {
+    "schema_version": 1,
+    "run_signature": "92964eceea2dcc49024d91c1701ea0a8bf771313baffd6f9a7228b0d90daf2d4",
+    "track": "0",
+    "method": "bounded_robust_triangulation",
+    "original_depths": {
+      "0:0": 4.5,
+      "0:1": 3.0,
+      "0:2": 3.0
+    },
+    "depths": {
+      "0:0": 3.4997047774646846,
+      "0:1": 3.4997047774646846,
+      "0:2": 3.4997047774646846
+    },
+    "state": "NUMERICALLY_CONVERGED",
+    "status_before": "VERIFIED_CONTRADICTION",
+    "status_after": "VERIFIED_FEASIBLE",
+    "detected": [],
+    "edit_ids": [
+      "0:0",
+      "0:1",
+      "0:2"
+    ],
+    "artifacts": [],
+    "geometry_residual_flags": [],
+    "z_min": 0.01,
+    "efficiency": {
+      "wall_seconds": 0.11352799998712726,
+      "cpu_seconds": 0.015625,
+      "peak_rss_bytes_sampled": 87453696,
+      "rss_sampling_period_seconds": 0.02
+    },
+    "certificate_checks": [],
+    "reason": "`gtol` termination condition is satisfied.",
+    "point": [
+      -0.3079592454966063,
+      -0.3168597273347983,
+      3.4997047774646846
+    ]
+  },
+  {
+    "schema_version": 1,
+    "run_signature": "92964eceea2dcc49024d91c1701ea0a8bf771313baffd6f9a7228b0d90daf2d4",
+    "track": "0",
+    "method": "bounded_robust_depth",
+    "original_depths": {
+      "0:0": 4.5,
+      "0:1": 3.0,
+      "0:2": 3.0
+    },
+    "depths": {
+      "0:0": 3.020000000087335,
+      "0:1": 3.020000000087335,
+      "0:2": 3.020000000087335
+    },
+    "state": "NUMERICALLY_CONVERGED",
+    "status_before": "VERIFIED_CONTRADICTION",
+    "status_after": "VERIFIED_FEASIBLE",
+    "detected": [],
+    "edit_ids": [
+      "0:0",
+      "0:1",
+      "0:2"
+    ],
+    "artifacts": [],
+    "geometry_residual_flags": [],
+    "z_min": 0.01,
+    "efficiency": {
+      "wall_seconds": 0.11745130000053905,
+      "cpu_seconds": 0.03125,
+      "peak_rss_bytes_sampled": 87474176,
+      "rss_sampling_period_seconds": 0.02
+    },
+    "certificate_checks": [],
+    "reason": "Both `ftol` and `xtol` termination conditions are satisfied.",
+    "point": [
+      -0.26574725028675095,
+      -0.2734277424600338,
+      3.020000000087335
+    ]
+  },
+  {
+    "schema_version": 1,
+    "run_signature": "92964eceea2dcc49024d91c1701ea0a8bf771313baffd6f9a7228b0d90daf2d4",
+    "track": "1",
+    "method": "bounded_robust_triangulation",
+    "original_depths": {
+      "1:0": 6.75,
+      "1:1": 4.5,
+      "1:2": 4.5
+    },
+    "depths": {
+      "1:0": 5.2500615774896335,
+      "1:1": 5.2500615774896335,
+      "1:2": 5.2500615774896335
+    },
+    "state": "NUMERICALLY_CONVERGED",
+    "status_before": "VERIFIED_CONTRADICTION",
+    "status_after": "VERIFIED_FEASIBLE",
+    "detected": [],
+    "edit_ids": [
+      "1:0",
+      "1:1",
+      "1:2"
+    ],
+    "artifacts": [],
+    "geometry_residual_flags": [],
+    "z_min": 0.01,
+    "efficiency": {
+      "wall_seconds": 0.01670790000935085,
+      "cpu_seconds": 0.0,
+      "peak_rss_bytes_sampled": 84623360,
+      "rss_sampling_period_seconds": 0.02
+    },
+    "certificate_checks": [],
+    "reason": "`gtol` termination condition is satisfied.",
+    "point": [
+      -0.4218654106053664,
+      0.4237335229404674,
+      5.2500615774896335
+    ]
+  },
+  {
+    "schema_version": 1,
+    "run_signature": "92964eceea2dcc49024d91c1701ea0a8bf771313baffd6f9a7228b0d90daf2d4",
+    "track": "1",
+    "method": "bounded_robust_depth",
+    "original_depths": {
+      "1:0": 6.75,
+      "1:1": 4.5,
+      "1:2": 4.5
+    },
+    "depths": {
+      "1:0": 4.529999999999999,
+      "1:1": 4.529999999999999,
+      "1:2": 4.529999999999999
+    },
+    "state": "NUMERICALLY_CONVERGED",
+    "status_before": "VERIFIED_CONTRADICTION",
+    "status_after": "VERIFIED_FEASIBLE",
+    "detected": [],
+    "edit_ids": [
+      "1:0",
+      "1:1",
+      "1:2"
+    ],
+    "artifacts": [],
+    "geometry_residual_flags": [],
+    "z_min": 0.01,
+    "efficiency": {
+      "wall_seconds": 0.023909000010462478,
+      "cpu_seconds": 0.0,
+      "peak_rss_bytes_sampled": 84807680,
+      "rss_sampling_period_seconds": 0.02
+    },
+    "certificate_checks": [],
+    "reason": "`gtol` termination condition is satisfied.",
+    "point": [
+      -0.36400531343026604,
+      0.365617208596275,
+      4.529999999999999
+    ]
+  },
+  {
+    "schema_version": 1,
+    "run_signature": "92964eceea2dcc49024d91c1701ea0a8bf771313baffd6f9a7228b0d90daf2d4",
+    "track": "2",
+    "method": "bounded_robust_triangulation",
+    "original_depths": {
+      "2:0": 3.0,
+      "2:1": 4.5,
+      "2:2": 4.5
+    },
+    "depths": {
+      "2:0": 4.000067195159379,
+      "2:1": 4.000067195159379,
+      "2:2": 4.000067195159379
+    },
+    "state": "NUMERICALLY_CONVERGED",
+    "status_before": "VERIFIED_CONTRADICTION",
+    "status_after": "VERIFIED_FEASIBLE",
+    "detected": [],
+    "edit_ids": [
+      "2:0",
+      "2:1",
+      "2:2"
+    ],
+    "artifacts": [],
+    "geometry_residual_flags": [],
+    "z_min": 0.01,
+    "efficiency": {
+      "wall_seconds": 0.013824599998770282,
+      "cpu_seconds": 0.0,
+      "peak_rss_bytes_sampled": 84840448,
+      "rss_sampling_period_seconds": 0.02
+    },
+    "certificate_checks": [],
+    "reason": "`gtol` termination condition is satisfied.",
+    "point": [
+      0.34902723609350506,
+      -0.5095234362657872,
+      4.000067195159379
+    ]
+  },
+  {
+    "schema_version": 1,
+    "run_signature": "92964eceea2dcc49024d91c1701ea0a8bf771313baffd6f9a7228b0d90daf2d4",
+    "track": "2",
+    "method": "bounded_robust_depth",
+    "original_depths": {
+      "2:0": 3.0,
+      "2:1": 4.5,
+      "2:2": 4.5
+    },
+    "depths": {
+      "2:0": 4.432499999996591,
+      "2:1": 4.432499999996591,
+      "2:2": 4.432499999996591
+    },
+    "state": "NUMERICALLY_CONVERGED",
+    "status_before": "VERIFIED_CONTRADICTION",
+    "status_after": "VERIFIED_FEASIBLE",
+    "detected": [],
+    "edit_ids": [
+      "2:0",
+      "2:1",
+      "2:2"
+    ],
+    "artifacts": [],
+    "geometry_residual_flags": [],
+    "z_min": 0.01,
+    "efficiency": {
+      "wall_seconds": 0.01813769998261705,
+      "cpu_seconds": 0.015625,
+      "peak_rss_bytes_sampled": 84852736,
+      "rss_sampling_period_seconds": 0.02
+    },
+    "certificate_checks": [],
+    "reason": "`ftol` termination condition is satisfied.",
+    "point": [
+      0.38675930890746574,
+      -0.5646061731111439,
+      4.432499999996591
+    ]
+  },
+  {
+    "schema_version": 1,
+    "run_signature": "92964eceea2dcc49024d91c1701ea0a8bf771313baffd6f9a7228b0d90daf2d4",
+    "track": "3",
+    "method": "bounded_robust_triangulation",
+    "original_depths": {
+      "3:0": 6.75,
+      "3:1": 4.5,
+      "3:2": 4.5
+    },
+    "depths": {
+      "3:0": 5.250347113039069,
+      "3:1": 5.250347113039069,
+      "3:2": 5.250347113039069
+    },
+    "state": "NUMERICALLY_CONVERGED",
+    "status_before": "VERIFIED_CONTRADICTION",
+    "status_after": "VERIFIED_FEASIBLE",
+    "detected": [],
+    "edit_ids": [
+      "3:0",
+      "3:1",
+      "3:2"
+    ],
+    "artifacts": [],
+    "geometry_residual_flags": [],
+    "z_min": 0.01,
+    "efficiency": {
+      "wall_seconds": 0.016765099979238585,
+      "cpu_seconds": 0.03125,
+      "peak_rss_bytes_sampled": 84885504,
+      "rss_sampling_period_seconds": 0.02
+    },
+    "certificate_checks": [],
+    "reason": "`gtol` termination condition is satisfied.",
+    "point": [
+      -0.30525161910249454,
+      -0.03938896995885866,
+      5.250347113039069
+    ]
+  },
+  {
+    "schema_version": 1,
+    "run_signature": "92964eceea2dcc49024d91c1701ea0a8bf771313baffd6f9a7228b0d90daf2d4",
+    "track": "3",
+    "method": "bounded_robust_depth",
+    "original_depths": {
+      "3:0": 6.75,
+      "3:1": 4.5,
+      "3:2": 4.5
+    },
+    "depths": {
+      "3:0": 4.529999999999999,
+      "3:1": 4.529999999999999,
+      "3:2": 4.529999999999999
+    },
+    "state": "NUMERICALLY_CONVERGED",
+    "status_before": "VERIFIED_CONTRADICTION",
+    "status_after": "VERIFIED_FEASIBLE",
+    "detected": [],
+    "edit_ids": [
+      "3:0",
+      "3:1",
+      "3:2"
+    ],
+    "artifacts": [],
+    "geometry_residual_flags": [],
+    "z_min": 0.01,
+    "efficiency": {
+      "wall_seconds": 0.022959800000535324,
+      "cpu_seconds": 0.015625,
+      "peak_rss_bytes_sampled": 84889600,
+      "rss_sampling_period_seconds": 0.02
+    },
+    "certificate_checks": [],
+    "reason": "`gtol` termination condition is satisfied.",
+    "point": [
+      -0.26337112666326035,
+      -0.033984807113134965,
+      4.529999999999999
+    ]
+  },
+  {
+    "schema_version": 1,
+    "run_signature": "92964eceea2dcc49024d91c1701ea0a8bf771313baffd6f9a7228b0d90daf2d4",
+    "track": "4",
+    "method": "bounded_robust_triangulation",
+    "original_depths": {
+      "4:0": 4.5,
+      "4:1": 4.5,
+      "4:2": 3.0
+    },
+    "depths": {
+      "4:0": 4.00011637146662,
+      "4:1": 4.00011637146662,
+      "4:2": 4.00011637146662
+    },
+    "state": "NUMERICALLY_CONVERGED",
+    "status_before": "VERIFIED_CONTRADICTION",
+    "status_after": "VERIFIED_FEASIBLE",
+    "detected": [],
+    "edit_ids": [
+      "4:0",
+      "4:1",
+      "4:2"
+    ],
+    "artifacts": [],
+    "geometry_residual_flags": [],
+    "z_min": 0.01,
+    "efficiency": {
+      "wall_seconds": 0.011638900003163144,
+      "cpu_seconds": 0.015625,
+      "peak_rss_bytes_sampled": 84901888,
+      "rss_sampling_period_seconds": 0.02
+    },
+    "certificate_checks": [],
+    "reason": "`gtol` termination condition is satisfied.",
+    "point": [
+      -0.6371394748310724,
+      0.057278602373413305,
+      4.00011637146662
+    ]
+  },
+  {
+    "schema_version": 1,
+    "run_signature": "92964eceea2dcc49024d91c1701ea0a8bf771313baffd6f9a7228b0d90daf2d4",
+    "track": "4",
+    "method": "bounded_robust_depth",
+    "original_depths": {
+      "4:0": 4.5,
+      "4:1": 4.5,
+      "4:2": 3.0
+    },
+    "depths": {
+      "4:0": 4.432499999969343,
+      "4:1": 4.432499999969343,
+      "4:2": 4.432499999969343
+    },
+    "state": "NUMERICALLY_CONVERGED",
+    "status_before": "VERIFIED_CONTRADICTION",
+    "status_after": "VERIFIED_FEASIBLE",
+    "detected": [],
+    "edit_ids": [
+      "4:0",
+      "4:1",
+      "4:2"
+    ],
+    "artifacts": [],
+    "geometry_residual_flags": [],
+    "z_min": 0.01,
+    "efficiency": {
+      "wall_seconds": 0.01683229999616742,
+      "cpu_seconds": 0.015625,
+      "peak_rss_bytes_sampled": 84938752,
+      "rss_sampling_period_seconds": 0.02
+    },
+    "certificate_checks": [],
+    "reason": "`ftol` termination condition is satisfied.",
+    "point": [
+      -0.7060096406979643,
+      0.06347000473021566,
+      4.432499999969343
+    ]
+  },
+  {
+    "schema_version": 1,
+    "run_signature": "92964eceea2dcc49024d91c1701ea0a8bf771313baffd6f9a7228b0d90daf2d4",
+    "track": "5",
+    "method": "bounded_robust_triangulation",
+    "original_depths": {
+      "5:0": 6.75,
+      "5:1": 4.5,
+      "5:2": 6.75
+    },
+    "depths": {
+      "5:0": 5.999701455719424,
+      "5:1": 5.999701455719424,
+      "5:2": 5.999701455719424
+    },
+    "state": "NUMERICALLY_CONVERGED",
+    "status_before": "VERIFIED_CONTRADICTION",
+    "status_after": "VERIFIED_FEASIBLE",
+    "detected": [],
+    "edit_ids": [
+      "5:0",
+      "5:1",
+      "5:2"
+    ],
+    "artifacts": [],
+    "geometry_residual_flags": [],
+    "z_min": 0.01,
+    "efficiency": {
+      "wall_seconds": 0.01318780001020059,
+      "cpu_seconds": 0.015625,
+      "peak_rss_bytes_sampled": 84942848,
+      "rss_sampling_period_seconds": 0.02
+    },
+    "certificate_checks": [],
+    "reason": "`gtol` termination condition is satisfied.",
+    "point": [
+      -0.10208531708555406,
+      0.5048287191997757,
+      5.999701455719424
+    ]
+  },
+  {
+    "schema_version": 1,
+    "run_signature": "92964eceea2dcc49024d91c1701ea0a8bf771313baffd6f9a7228b0d90daf2d4",
+    "track": "5",
+    "method": "bounded_robust_depth",
+    "original_depths": {
+      "5:0": 6.75,
+      "5:1": 4.5,
+      "5:2": 6.75
+    },
+    "depths": {
+      "5:0": 6.648749999969369,
+      "5:1": 6.648749999969369,
+      "5:2": 6.648749999969369
+    },
+    "state": "NUMERICALLY_CONVERGED",
+    "status_before": "VERIFIED_CONTRADICTION",
+    "status_after": "VERIFIED_FEASIBLE",
+    "detected": [],
+    "edit_ids": [
+      "5:0",
+      "5:1",
+      "5:2"
+    ],
+    "artifacts": [],
+    "geometry_residual_flags": [],
+    "z_min": 0.01,
+    "efficiency": {
+      "wall_seconds": 0.019476499990560114,
+      "cpu_seconds": 0.015625,
+      "peak_rss_bytes_sampled": 84946944,
+      "rss_sampling_period_seconds": 0.02
+    },
+    "certificate_checks": [],
+    "reason": "`ftol` termination condition is satisfied.",
+    "point": [
+      -0.11312892099363081,
+      0.5594411607871546,
+      6.648749999969369
+    ]
+  },
+  {
+    "schema_version": 1,
+    "run_signature": "92964eceea2dcc49024d91c1701ea0a8bf771313baffd6f9a7228b0d90daf2d4",
+    "track": "6",
+    "method": "bounded_robust_triangulation",
+    "original_depths": {
+      "6:0": 4.5,
+      "6:1": 3.0,
+      "6:2": 4.5
+    },
+    "depths": {
+      "6:0": 4.000203250679077,
+      "6:1": 4.000203250679077,
+      "6:2": 4.000203250679077
+    },
+    "state": "NUMERICALLY_CONVERGED",
+    "status_before": "VERIFIED_CONTRADICTION",
+    "status_after": "VERIFIED_FEASIBLE",
+    "detected": [],
+    "edit_ids": [
+      "6:0",
+      "6:1",
+      "6:2"
+    ],
+    "artifacts": [],
+    "geometry_residual_flags": [],
+    "z_min": 0.01,
+    "efficiency": {
+      "wall_seconds": 0.0136484999966342,
+      "cpu_seconds": 0.015625,
+      "peak_rss_bytes_sampled": 84946944,
+      "rss_sampling_period_seconds": 0.02
+    },
+    "certificate_checks": [],
+    "reason": "`gtol` termination condition is satisfied.",
+    "point": [
+      -0.6217366138615953,
+      0.39918377704081315,
+      4.000203250679077
+    ]
+  },
+  {
+    "schema_version": 1,
+    "run_signature": "92964eceea2dcc49024d91c1701ea0a8bf771313baffd6f9a7228b0d90daf2d4",
+    "track": "6",
+    "method": "bounded_robust_depth",
+    "original_depths": {
+      "6:0": 4.5,
+      "6:1": 3.0,
+      "6:2": 4.5
+    },
+    "depths": {
+      "6:0": 4.432500000149728,
+      "6:1": 4.432500000149728,
+      "6:2": 4.432500000149728
+    },
+    "state": "NUMERICALLY_CONVERGED",
+    "status_before": "VERIFIED_CONTRADICTION",
+    "status_after": "VERIFIED_FEASIBLE",
+    "detected": [],
+    "edit_ids": [
+      "6:0",
+      "6:1",
+      "6:2"
+    ],
+    "artifacts": [],
+    "geometry_residual_flags": [],
+    "z_min": 0.01,
+    "efficiency": {
+      "wall_seconds": 0.016543000005185604,
+      "cpu_seconds": 0.015625,
+      "peak_rss_bytes_sampled": 84955136,
+      "rss_sampling_period_seconds": 0.02
+    },
+    "certificate_checks": [],
+    "reason": "`ftol` termination condition is satisfied.",
+    "point": [
+      -0.6889268790446493,
+      0.44232304733335576,
+      4.432500000149728
+    ]
+  },
+  {
+    "schema_version": 1,
+    "run_signature": "92964eceea2dcc49024d91c1701ea0a8bf771313baffd6f9a7228b0d90daf2d4",
+    "track": "7",
+    "method": "bounded_robust_triangulation",
+    "original_depths": {
+      "7:0": 4.5,
+      "7:1": 6.75,
+      "7:2": 4.5
+    },
+    "depths": {
+      "7:0": 5.250085813829388,
+      "7:1": 5.250085813829388,
+      "7:2": 5.250085813829388
+    },
+    "state": "NUMERICALLY_CONVERGED",
+    "status_before": "VERIFIED_CONTRADICTION",
+    "status_after": "VERIFIED_FEASIBLE",
+    "detected": [],
+    "edit_ids": [
+      "7:0",
+      "7:1",
+      "7:2"
+    ],
+    "artifacts": [],
+    "geometry_residual_flags": [],
+    "z_min": 0.01,
+    "efficiency": {
+      "wall_seconds": 0.013831799995386973,
+      "cpu_seconds": 0.015625,
+      "peak_rss_bytes_sampled": 84955136,
+      "rss_sampling_period_seconds": 0.02
+    },
+    "certificate_checks": [],
+    "reason": "`gtol` termination condition is satisfied.",
+    "point": [
+      0.6338253245729144,
+      0.2687379043754799,
+      5.250085813829388
+    ]
+  },
+  {
+    "schema_version": 1,
+    "run_signature": "92964eceea2dcc49024d91c1701ea0a8bf771313baffd6f9a7228b0d90daf2d4",
+    "track": "7",
+    "method": "bounded_robust_depth",
+    "original_depths": {
+      "7:0": 4.5,
+      "7:1": 6.75,
+      "7:2": 4.5
+    },
+    "depths": {
+      "7:0": 4.529999999999999,
+      "7:1": 4.529999999999999,
+      "7:2": 4.529999999999999
+    },
+    "state": "NUMERICALLY_CONVERGED",
+    "status_before": "VERIFIED_CONTRADICTION",
+    "status_after": "VERIFIED_FEASIBLE",
+    "detected": [],
+    "edit_ids": [
+      "7:0",
+      "7:1",
+      "7:2"
+    ],
+    "artifacts": [],
+    "geometry_residual_flags": [],
+    "z_min": 0.01,
+    "efficiency": {
+      "wall_seconds": 0.02197090000845492,
+      "cpu_seconds": 0.0,
+      "peak_rss_bytes_sampled": 84967424,
+      "rss_sampling_period_seconds": 0.02
+    },
+    "certificate_checks": [],
+    "reason": "`gtol` termination condition is satisfied.",
+    "point": [
+      0.5468917694168204,
+      0.2318786301767074,
+      4.529999999999999
+    ]
+  }
+]

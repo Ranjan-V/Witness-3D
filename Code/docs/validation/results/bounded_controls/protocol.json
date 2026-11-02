@@ -1,0 +1,14 @@
+{
+  "status": "Executed post-hoc diagnostic; not part of the original predeclared sweep",
+  "motivation": "Unbounded robust reprojection had runaway estimates; compare with the same finite box",
+  "methods": [
+    "bounded_robust_triangulation",
+    "bounded_robust_depth"
+  ],
+  "loss": "huber",
+  "f_scale": 1,
+  "max_nfev": 200,
+  "pixel_scale_floor": 0.5,
+  "source_sweep_signature": "02df4bd5cb53b0f096e1914adaff1f82a9d894e232d3d4b093b28cbbfbed41e4",
+  "script_hash": "a2e5ccf176f0749107714f1ed201059c998fe1a0e8a803aab616baabbfc2e320"
+}

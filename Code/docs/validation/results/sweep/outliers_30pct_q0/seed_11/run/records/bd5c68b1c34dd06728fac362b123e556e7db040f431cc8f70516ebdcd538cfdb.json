@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "run_signature": "acbac1aeb604d82f9392bd1d6efea15e6e8791de9ebecc7c642ecd8a1756382e",
+  "track": "3",
+  "method": "global",
+  "original_depths": {
+    "3:0": 4.5,
+    "3:1": 4.5,
+    "3:2": 6.75
+  },
+  "depths": {
+    "3:0": 4.5,
+    "3:1": 4.5,
+    "3:2": 6.75
+  },
+  "state": "ABSTAINED",
+  "status_before": "VERIFIED_CONTRADICTION",
+  "status_after": "VERIFIED_CONTRADICTION",
+  "detected": [],
+  "edit_ids": [],
+  "artifacts": [],
+  "geometry_residual_flags": [],
+  "z_min": 0.01,
+  "reason": "A pixel polytope lacks a checked feasible point",
+  "runtime_scope": "first_record_in_block_computes_global_solve_others_read_cache",
+  "efficiency": {
+    "wall_seconds": 0.023531599988928065,
+    "cpu_seconds": 0.015625,
+    "peak_rss_bytes_sampled": 91422720,
+    "rss_sampling_period_seconds": 0.02
+  },
+  "certificate_checks": []
+}

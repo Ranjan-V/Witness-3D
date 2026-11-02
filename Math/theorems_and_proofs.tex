@@ -1,0 +1,44 @@
+\documentclass[11pt]{article}
+\usepackage{amsmath,amssymb,amsthm}
+\newtheorem{theorem}{Theorem}
+\newtheorem{proposition}{Proposition}
+\begin{document}
+\section*{Problem-specific conditional selective-correction result}
+The novelty of the following combination is unresolved. It uses classical set containment and interval projection. A full logical proof is supplied; there has been no external peer review or machine proof check.
+
+\begin{theorem}[W1; PROVED UNDER EXPLICIT ASSUMPTIONS]
+Consider one static world point $X^*$ and n observations with fixed cameras. Assume (a) $X^*\in B$; (b) the target j is a correct association whose pixel box contains its true projection; (c) among n-1 auxiliary observations at most q are outliers, and every other pixel box contains the projection of $X^*$; (d) all these true inlier projections have depth at least $z_{\min}>0$; and (e) $0\le q\le n-1$.
+
+For a physical-depth interpretation, also assume the supplied target affine query $z_j(X^*)=r_{j,3}X^*+t_{j,3}$ equals the true metric optical-axis depth; all projection-containment premises refer to the supplied camera model. Merely fixing erroneous camera parameters does not ensure these premises.
+
+For every q-element subset S of auxiliaries let $P_S$ contain $B$, target constraints and the pixel/positive-depth constraints of the undeleted auxiliaries, with no model depths. Discard only systems proved empty by a sound checker. For each remaining system obtain sound affine-depth bounds $\ell_S\le z_j(X)\le u_S$; a failed numerical optimizer must still contribute a sound fallback bound. Enumerate every S. Let $L=\min_S\ell_S$ and $U=\max_S u_S$ over nondiscarded systems. Then:
+\begin{enumerate}
+\item At least one system is not discarded and $L\le z_j(X^*)\le U$.
+\item If the model interval $D_j$ is disjoint from $[L,U]$, its true target depth is not in $D_j$.
+\item For $d'_j=\Pi_{[L,U]}(d_j)$, $|d'_j-z_j(X^*)|\le|d_j-z_j(X^*)|$. When $d_j$ is outside $[L,U]$, absolute-error improvement equals $\operatorname{dist}(d_j,[L,U])$ and squared-error improvement is at least its square.
+\item An operator applying this only to independently justified target observations and acting as identity elsewhere preserves every unselected observation. It does not necessarily produce joint multiview feasibility.
+\end{enumerate}
+\end{theorem}
+\begin{proof}
+Let O be the set of actual auxiliary outliers. Since $|O|\le q\le n-1$, extend O to a q-element set $S^*$. Every retained observation in $P_{S^*}$ is then an inlier, and the target is correct. G1 and assumptions (a)--(d) imply $X^*\in P_{S^*}$. A sound checker cannot discard this nonempty set. Its sound bounds contain $z^*=z_j(X^*)$, so the hull of all nondiscarded bounds does too. This proves (1). Disjointness gives (2) directly.
+
+For (3), if $d_j\in[L,U]$ the update is identity. If $d_j<L$, then $d'_j=L\le z^*$, and $|d_j-z^*|-|L-z^*|=L-d_j=\operatorname{dist}(d_j,[L,U])$. Writing $a=L-d_j>0$ and $b=z^*-L\ge0$, squared improvement is $(a+b)^2-b^2=a^2+2ab\ge a^2$. The case $d_j>U$ is symmetric. The definition of the mask establishes (4)'s support property. Marginal ranges of a multivariate set need not have a common preimage for arbitrary selected coordinates, so no joint-feasibility conclusion follows.
+\end{proof}
+
+\paragraph{Conservative floating endpoints.}
+If rational bounds are rounded downward for L and upward for U, the rounded interval still contains $z^*$ and the same proof applies to clipping onto that enlarged interval. Rounding in the opposite direction is unsafe. Code performs exact comparisons to the candidate float before using the next representable outward value.
+
+\begin{proposition}[W2; PROVED UNDER EXPLICIT ASSUMPTIONS]
+For exact possible-geometry sets with the same target and inputs, the q-budget union is contained in the (q+1)-budget union for $q<n-1$. Therefore exact depth hulls can only widen, and refutations can only disappear as q increases.
+\end{proposition}
+\begin{proof}
+Extend any q-deletion set by one retained auxiliary. Removing constraints enlarges its polytope. Each point in the smaller union therefore lies in a member of the larger union. Affine images and interval hulls preserve inclusion.
+\end{proof}
+Independently computed loose outer bounds need not be monotonically nested across q because solver quality differs. The theorem concerns exact hulls, not a claim about floating output curves. A future comparison can enforce nesting by hulling with all lower-q bounds.
+
+\paragraph{Extraction (E1; classical conditional result).}
+For m half-spaces in $\mathbb R^3$, infeasibility has a subfamily of at most four half-spaces by Helly's theorem. Including the domain box as one fixed convex set gives at most four total sets and at most four candidate non-domain rows. An exhaustive search through row subsets of size at most four finds a small inconsistent subset with a complete feasibility oracle. An UNKNOWN numerical query prevents a minimum-cardinality conclusion. Deletion shrinking needs at most m deletion queries after an initial conflict and yields an irreducible set only if each failed removal is conclusively feasible. Unknown deletions are retained and do not justify irreducibility.
+
+\paragraph{Completeness (E2).}
+G1 plus an exact complete LP decision procedure is complete for the encoded polyhedron. The implemented candidate solver plus exact checker is sound when it accepts, but not complete: finite proposal/time/recovery budgets may yield UNKNOWN on feasible or infeasible inputs. Completeness of the implementation is REFUTED as a general claim.
+\end{document}

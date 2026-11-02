@@ -1,0 +1,10 @@
+cpu_threads: 2
+worker_processes: 1
+max_resident_tracks: 128
+max_views: 6
+lp_time_limit_seconds: 2.0
+max_hypotheses_per_target: 64
+depth_batch_size: 1
+target_host_ram_gb: 8
+note: Planning ceilings; the program does not enforce an OS memory limit.
+

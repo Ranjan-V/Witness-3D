@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "run_signature": "f597292ff394e636c3276446f9962f5df2012f35bce28667ef2bafdc680dc674",
+  "track": "5",
+  "method": "global",
+  "original_depths": {
+    "5:0": 4.5,
+    "5:1": 4.5,
+    "5:2": 9.0
+  },
+  "depths": {
+    "5:0": 4.5,
+    "5:1": 4.5,
+    "5:2": 9.0
+  },
+  "state": "NONCONVERGED",
+  "status_before": "VERIFIED_CONTRADICTION",
+  "status_after": "VERIFIED_CONTRADICTION",
+  "detected": [],
+  "edit_ids": [],
+  "artifacts": [],
+  "geometry_residual_flags": [],
+  "z_min": 0.01,
+  "reason": "Iteration cap reached",
+  "runtime_scope": "first_record_in_block_computes_global_solve_others_read_cache",
+  "efficiency": {
+    "wall_seconds": 0.02357849999680184,
+    "cpu_seconds": 0.0,
+    "peak_rss_bytes_sampled": 86347776,
+    "rss_sampling_period_seconds": 0.02
+  },
+  "certificate_checks": []
+}

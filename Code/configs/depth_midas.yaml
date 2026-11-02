@@ -1,0 +1,9 @@
+model:
+  name: midas_small
+  repository: ${W3D_MIDAS_SOURCE}
+  checkpoint: ${W3D_MIDAS_CHECKPOINT}
+  backbone_repository: ${W3D_EFFICIENTNET_SOURCE}
+  device: cuda:0
+batch_size: 2
+max_pixels: 500000
+

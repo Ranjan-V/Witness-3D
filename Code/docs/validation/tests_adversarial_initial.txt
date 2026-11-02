@@ -1,0 +1,4 @@
+........................................................................ [ 68%]
+.................................                                        [100%]
+- generated xml file: D:\CVPR\Code\docs\validation\tests_adversarial_initial.xml -
+105 passed in 3.95s

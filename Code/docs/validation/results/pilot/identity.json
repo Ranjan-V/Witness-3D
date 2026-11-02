@@ -1,0 +1,66 @@
+{
+  "signature": "f61f208c6b27ecd6028ac0bd2c03d2a5501823601bfc99566c0d3f568ba3d204",
+  "config": {
+    "schema_version": 1,
+    "seeds": [
+      11
+    ],
+    "bootstrap_seed": 20261102,
+    "bootstrap_replicates": 2000,
+    "base": {
+      "tracks": 4,
+      "views": 3,
+      "baseline": 0.3,
+      "pixel_sigma": 0.0,
+      "pixel_radius": 0.5,
+      "bounded_noise": 0.2,
+      "depth_relative_width": 0.02,
+      "depth_bias": 1.5,
+      "biased_fraction": 0.35,
+      "outlier_rate": 0.0,
+      "pose_translation_sigma": 0.0,
+      "pose_rotation_sigma": 0.0,
+      "configuration": "translated",
+      "scene": "planes"
+    },
+    "experiment": {
+      "methods": [
+        "none",
+        "fusion",
+        "triangulation",
+        "robust_triangulation",
+        "ransac",
+        "robust_depth",
+        "local",
+        "local_all",
+        "global"
+      ],
+      "solver": {
+        "time_limit": 2.0,
+        "proposal_tolerance": 1e-08,
+        "recovery_rows": 12
+      },
+      "repair": {
+        "q": 0,
+        "max_hypotheses": 64,
+        "extraction": "dual",
+        "localize": true,
+        "save_evidence": true
+      },
+      "global": {
+        "block_tracks": 4,
+        "delta": 1.0,
+        "ridge": 0.001,
+        "spatial": 0.01,
+        "max_iterations": 30
+      }
+    },
+    "scenarios": [
+      {
+        "name": "reference"
+      }
+    ]
+  },
+  "source_hash": "3cd9c820f8fcf5c11381b1d966516a1cb7e9a85c10fdb68ce65924ec566671ca",
+  "runner_hash": "8cf92a34d9f2049179ba26994e450a72f65eed6b10b4366c5919f92a5246119f"
+}

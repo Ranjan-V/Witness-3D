@@ -1,0 +1,53 @@
+schema_version: 1
+seeds: [11, 23, 37, 53, 71]
+bootstrap_seed: 20261102
+bootstrap_replicates: 2000
+base:
+  tracks: 8
+  views: 3
+  baseline: 0.3
+  pixel_sigma: 0.0
+  pixel_radius: 0.5
+  bounded_noise: 0.2
+  depth_relative_width: 0.02
+  depth_bias: 1.5
+  biased_fraction: 0.35
+  outlier_rate: 0.0
+  pose_translation_sigma: 0.0
+  pose_rotation_sigma: 0.0
+  configuration: translated
+  scene: planes
+experiment:
+  methods: [none, fusion, triangulation, robust_triangulation, ransac, robust_depth, local, local_all, global]
+  solver: {time_limit: 2.0, proposal_tolerance: 1.0e-8, recovery_rows: 12}
+  repair: {q: 0, max_hypotheses: 64, extraction: dual, localize: true, save_evidence: true}
+  global: {block_tracks: 4, delta: 1.0, ridge: 0.001, spatial: 0.01, max_iterations: 30}
+scenarios:
+  - {name: reference}
+  - {name: correct_predictions, synthetic: {depth_bias: 1.0}}
+  - {name: bias_1p1, synthetic: {depth_bias: 1.1}}
+  - {name: bias_2, synthetic: {depth_bias: 2.0}}
+  - {name: views_2, synthetic: {views: 2}}
+  - {name: views_5, synthetic: {views: 5}}
+  - {name: zero_baseline, synthetic: {baseline: 0.0}}
+  - {name: baseline_0p03, synthetic: {baseline: 0.03}}
+  - {name: baseline_1, synthetic: {baseline: 1.0}}
+  - {name: pixel_radius_2, synthetic: {pixel_radius: 2.0}}
+  - {name: undersized_pixel_box, synthetic: {pixel_radius: 0.1}}
+  - {name: depth_width_0p005, synthetic: {depth_relative_width: 0.005}}
+  - {name: depth_width_0p1, synthetic: {depth_relative_width: 0.1}}
+  - {name: depth_width_0p4, synthetic: {depth_relative_width: 0.4}}
+  - {name: outliers_10pct_q0, synthetic: {outlier_rate: 0.1}}
+  - {name: outliers_10pct_q1, synthetic: {outlier_rate: 0.1}, q: 1}
+  - {name: outliers_30pct_q0, synthetic: {outlier_rate: 0.3}}
+  - {name: outliers_30pct_q1, synthetic: {outlier_rate: 0.3}, q: 1}
+  - {name: clean_q1, q: 1}
+  - {name: clean_q2, q: 2}
+  - {name: pose_translation_0p002, synthetic: {pose_translation_sigma: 0.002}}
+  - {name: pose_translation_0p01, synthetic: {pose_translation_sigma: 0.01}}
+  - {name: pose_rotation_0p002, synthetic: {pose_rotation_sigma: 0.002}}
+  - {name: gaussian_noise_0p2, synthetic: {pixel_sigma: 0.2}}
+  - {name: gaussian_noise_0p75, synthetic: {pixel_sigma: 0.75}}
+  - {name: track_2_of_5, synthetic: {views: 5, track_length: 2}}
+  - {name: track_3_of_5, synthetic: {views: 5, track_length: 3}}
+  - {name: pure_rotation, synthetic: {configuration: pure_rotation}}

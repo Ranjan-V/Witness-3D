@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "run_signature": "8c451fc0c768e01b5fb777c3961484410c68b50477e8eab57af5441628e451d7",
+  "track": "1",
+  "method": "robust_depth",
+  "original_depths": {
+    "1:0": 6.75,
+    "1:1": 4.5,
+    "1:2": 4.5
+  },
+  "depths": {
+    "1:0": 4.480371277275871,
+    "1:1": 4.485022463662485,
+    "1:2": 4.489724101990388
+  },
+  "state": "NUMERICALLY_CONVERGED",
+  "status_before": "VERIFIED_CONTRADICTION",
+  "status_after": "VERIFIED_FEASIBLE",
+  "detected": [],
+  "edit_ids": [
+    "1:0",
+    "1:1",
+    "1:2"
+  ],
+  "artifacts": [],
+  "geometry_residual_flags": [],
+  "z_min": 0.01,
+  "point": [
+    -0.36571790133192883,
+    0.3679327537795858,
+    4.485477015898452
+  ],
+  "consistency": {
+    "reprojection_mean_px": 0.27749369681997516,
+    "depth_inconsistency_m": 0.764960719023752,
+    "invalid_projection_fraction": 0.0
+  },
+  "efficiency": {
+    "wall_seconds": 0.0067442999861668795,
+    "cpu_seconds": 0.0,
+    "peak_rss_bytes_sampled": 96206848,
+    "rss_sampling_period_seconds": 0.02
+  },
+  "certificate_checks": []
+}

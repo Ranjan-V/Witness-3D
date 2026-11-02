@@ -1,0 +1,10 @@
+model:
+  name: da_v2_metric_small
+  repository: ${W3D_DAV2_METRIC_SOURCE}
+  checkpoint: ${W3D_DAV2_CHECKPOINT}
+  device: cpu
+  input_size: 518
+  max_depth: 20.0
+batch_size: 1
+max_pixels: 500000
+

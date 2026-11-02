@@ -1,0 +1,12 @@
+# Spec generation only; prepare/cache/extract/run each real spec explicitly.
+base:
+  kind: real
+  manifest: ${W3D_MANIFEST}
+  model: da_v2_metric_small
+  dataset: tum
+  evaluation_scope: unique_track_sampled_pixels
+axes:
+  model: [da_v2_metric_small, midas_small]
+  dataset: [tum, 7scenes, scannet, eth3d]
+  views: [3, 5]
+

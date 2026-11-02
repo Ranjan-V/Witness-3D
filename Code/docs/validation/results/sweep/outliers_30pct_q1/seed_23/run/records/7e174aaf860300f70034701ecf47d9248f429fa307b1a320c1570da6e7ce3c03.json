@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "run_signature": "7ac8bcdc1d16a799871d222f47f6fa0bf157c34032017ba5b898265612b12bf7",
+  "track": "5",
+  "method": "triangulation",
+  "original_depths": {
+    "5:0": 4.5,
+    "5:1": 4.5,
+    "5:2": 6.75
+  },
+  "depths": {
+    "5:0": 4.5,
+    "5:1": 4.5,
+    "5:2": 6.75
+  },
+  "state": "FAILED_KEEP_ORIGINAL",
+  "status_before": "VERIFIED_CONTRADICTION",
+  "status_after": "VERIFIED_CONTRADICTION",
+  "detected": [],
+  "edit_ids": [],
+  "artifacts": [],
+  "geometry_residual_flags": [],
+  "z_min": 0.01,
+  "reason": "Baseline produced an invalid fixed-width depth interval",
+  "efficiency": {
+    "wall_seconds": 0.001607799989869818,
+    "cpu_seconds": 0.0,
+    "peak_rss_bytes_sampled": 91512832,
+    "rss_sampling_period_seconds": 0.02
+  },
+  "certificate_checks": []
+}

@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "run_signature": "6150f2fd31fc6f94ddfd37ff4d9699f868950c3e2472c496a4e11b8dad794a85",
+  "track": "7",
+  "method": "global",
+  "original_depths": {
+    "7:0": 4.5,
+    "7:1": 6.75,
+    "7:2": 6.75,
+    "7:3": 6.75,
+    "7:4": 6.75
+  },
+  "depths": {
+    "7:0": 4.552843523545982,
+    "7:1": 4.552843523545982,
+    "7:2": 4.552843523545982,
+    "7:3": 4.552843523545982,
+    "7:4": 4.552843523545982
+  },
+  "state": "CONVERGED_NUMERICALLY",
+  "status_before": "VERIFIED_CONTRADICTION",
+  "status_after": "VERIFIED_FEASIBLE",
+  "detected": [],
+  "edit_ids": [
+    "7:0",
+    "7:1",
+    "7:2",
+    "7:3",
+    "7:4"
+  ],
+  "artifacts": [],
+  "geometry_residual_flags": [],
+  "z_min": 0.01,
+  "reason": "Step tolerance; no exact optimality certificate",
+  "runtime_scope": "first_record_in_block_computes_global_solve_others_read_cache",
+  "point": [
+    0.44261282920969847,
+    0.16100834006241177,
+    4.552843523545982
+  ],
+  "consistency": {
+    "reprojection_mean_px": 0.5088206340718093,
+    "depth_inconsistency_m": 1.7682938858724107,
+    "invalid_projection_fraction": 0.0
+  },
+  "efficiency": {
+    "wall_seconds": 0.010431600006995723,
+    "cpu_seconds": 0.0,
+    "peak_rss_bytes_sampled": 88608768,
+    "rss_sampling_period_seconds": 0.02
+  },
+  "certificate_checks": []
+}

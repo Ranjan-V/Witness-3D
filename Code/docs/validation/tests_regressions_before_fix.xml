@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="2" skipped="0" tests="2" time="1.126" timestamp="2026-11-02T14:35:19.696479+05:30" hostname="RANJAN"><testcase classname="tests.test_phase2_adversarial" name="test_invalid_after_depth_counts_as_damage" time="0.002"><failure message="assert None == 1.0">def test_invalid_after_depth_counts_as_damage():
+        from witness3d.metrics import repair_metrics
+        result = repair_metrics([1., 1., 2.], [float('nan'), -1., 1.], [1., 1., 1.])
+&gt;       assert result['damaged_fraction'] == 1.
+E       assert None == 1.0
+
+tests\test_phase2_adversarial.py:187: AssertionError</failure></testcase><testcase classname="tests.test_phase2_adversarial" name="test_failed_baseline_does_not_report_rejected_point" time="0.161"><failure message="AssertionError: assert 'point' not in {'artifacts': [], 'certificate_checks': [], 'consistency': {'depth_inconsistency_m': None, 'invalid_projection_fraction': 1.0, 'reprojection_mean_px': None}, 'depths': {'0:0': 3.0, '0:1': 3.0, '0:2': 3.0}, ...}">tmp_path = WindowsPath('C:/Users/ranja/AppData/Local/Temp/pytest-of-ranja/pytest-111/test_failed_baseline_does_not_0')
+monkeypatch = &lt;_pytest.monkeypatch.MonkeyPatch object at 0x000001D946123B50&gt;
+
+    def test_failed_baseline_does_not_report_rejected_point(tmp_path, monkeypatch):
+        from witness3d.baselines import PointEstimate
+        from witness3d.experiments import run_inputs
+        from witness3d.synthetic import SyntheticConfig, generate
+        inputs, _ = generate(SyntheticConfig(tracks=1))
+        monkeypatch.setattr('witness3d.baselines.linear_triangulation',
+                            lambda *a, **k: PointEstimate(np.array([0., 0., -1.]), 'NUMERICAL_ESTIMATE'))
+        record = run_inputs(inputs, {'methods': ['triangulation']}, str(tmp_path))[0]
+        assert record['state'] == 'FAILED_KEEP_ORIGINAL'
+        assert record['depths'] == record['original_depths']
+&gt;       assert 'point' not in record
+E       AssertionError: assert 'point' not in {'artifacts': [], 'certificate_checks': [], 'consistency': {'depth_inconsistency_m': None, 'invalid_projection_fraction': 1.0, 'reprojection_mean_px': None}, 'depths': {'0:0': 3.0, '0:1': 3.0, '0:2': 3.0}, ...}
+
+tests\test_phase2_adversarial.py:202: AssertionError</failure></testcase></testsuite></testsuites>

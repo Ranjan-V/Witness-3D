@@ -1,0 +1,394 @@
+{
+  "schema_version": 1,
+  "run_signature": "38b6447c4f0e2c3b9509682dcd42e06a9299a22d288c11bd3d2bd06887b35f30",
+  "track": "0",
+  "method": "local",
+  "original_depths": {
+    "0:2": 3.0,
+    "0:3": 3.0,
+    "0:4": 3.0
+  },
+  "depths": {
+    "0:2": 3.0,
+    "0:3": 3.0,
+    "0:4": 3.0
+  },
+  "state": "SELECTIVE_REPAIR",
+  "status_before": "VERIFIED_FEASIBLE",
+  "status_after": "VERIFIED_FEASIBLE",
+  "detected": [],
+  "edit_ids": [],
+  "artifacts": [
+    {
+      "schema_version": 1,
+      "system": {
+        "A": [
+          [
+            "1",
+            "0",
+            "0"
+          ],
+          [
+            "-1",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "-1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1"
+          ],
+          [
+            "0",
+            "0",
+            "-1"
+          ],
+          [
+            "1",
+            "0",
+            "8190161450305/52776558133248"
+          ],
+          [
+            "-1",
+            "0",
+            "-209152082768729/1319413953331200"
+          ],
+          [
+            "0",
+            "1",
+            "-591446337476659/5277655813324800"
+          ],
+          [
+            "0",
+            "-1",
+            "191284717144081/1759218604441600"
+          ],
+          [
+            "0",
+            "0",
+            "-1"
+          ],
+          [
+            "0",
+            "0",
+            "1"
+          ],
+          [
+            "0",
+            "0",
+            "-1"
+          ],
+          [
+            "1",
+            "0",
+            "674806718668723/2638827906662400"
+          ],
+          [
+            "-1",
+            "0",
+            "-227867603896977/879609302220800"
+          ],
+          [
+            "0",
+            "1",
+            "-197685038390827/1759218604441600"
+          ],
+          [
+            "0",
+            "-1",
+            "115092585825613/1055531162664960"
+          ],
+          [
+            "0",
+            "0",
+            "-1"
+          ],
+          [
+            "0",
+            "0",
+            "1"
+          ],
+          [
+            "0",
+            "0",
+            "-1"
+          ],
+          [
+            "1",
+            "0",
+            "374722389796369/1055531162664960"
+          ],
+          [
+            "-1",
+            "0",
+            "-630401378342087/1759218604441600"
+          ],
+          [
+            "0",
+            "1",
+            "-295844206642141/2638827906662400"
+          ],
+          [
+            "0",
+            "-1",
+            "287048113619933/2638827906662400"
+          ],
+          [
+            "0",
+            "0",
+            "-1"
+          ],
+          [
+            "0",
+            "0",
+            "1"
+          ],
+          [
+            "0",
+            "0",
+            "-1"
+          ]
+        ],
+        "b": [
+          "3",
+          "3",
+          "3",
+          "3",
+          "10",
+          "-3602879701896397/36028797018963968",
+          "0",
+          "0",
+          "0",
+          "0",
+          "-5764607523034235/576460752303423488",
+          "55124059439014871/18014398509481984",
+          "-52962331617877033/18014398509481984",
+          "5404319552844595/18014398509481984",
+          "-5404319552844595/18014398509481984",
+          "0",
+          "0",
+          "-5764607523034235/576460752303423488",
+          "55124059439014871/18014398509481984",
+          "-52962331617877033/18014398509481984",
+          "5404319552844595/9007199254740992",
+          "-5404319552844595/9007199254740992",
+          "0",
+          "0",
+          "-5764607523034235/576460752303423488",
+          "55124059439014871/18014398509481984",
+          "-52962331617877033/18014398509481984"
+        ],
+        "box": {
+          "lower": [
+            "-3",
+            "-3",
+            "3602879701896397/36028797018963968"
+          ],
+          "upper": [
+            "3",
+            "3",
+            "10"
+          ]
+        },
+        "tags": [
+          {
+            "track": "",
+            "observation": "",
+            "camera": "",
+            "kind": "domain_upper_0"
+          },
+          {
+            "track": "",
+            "observation": "",
+            "camera": "",
+            "kind": "domain_lower_0"
+          },
+          {
+            "track": "",
+            "observation": "",
+            "camera": "",
+            "kind": "domain_upper_1"
+          },
+          {
+            "track": "",
+            "observation": "",
+            "camera": "",
+            "kind": "domain_lower_1"
+          },
+          {
+            "track": "",
+            "observation": "",
+            "camera": "",
+            "kind": "domain_upper_2"
+          },
+          {
+            "track": "",
+            "observation": "",
+            "camera": "",
+            "kind": "domain_lower_2"
+          },
+          {
+            "track": "0",
+            "observation": "0:2",
+            "camera": "2",
+            "kind": "pixel_u_upper"
+          },
+          {
+            "track": "0",
+            "observation": "0:2",
+            "camera": "2",
+            "kind": "pixel_u_lower"
+          },
+          {
+            "track": "0",
+            "observation": "0:2",
+            "camera": "2",
+            "kind": "pixel_v_upper"
+          },
+          {
+            "track": "0",
+            "observation": "0:2",
+            "camera": "2",
+            "kind": "pixel_v_lower"
+          },
+          {
+            "track": "0",
+            "observation": "0:2",
+            "camera": "2",
+            "kind": "cheirality"
+          },
+          {
+            "track": "0",
+            "observation": "0:2",
+            "camera": "2",
+            "kind": "depth_upper"
+          },
+          {
+            "track": "0",
+            "observation": "0:2",
+            "camera": "2",
+            "kind": "depth_lower"
+          },
+          {
+            "track": "0",
+            "observation": "0:3",
+            "camera": "3",
+            "kind": "pixel_u_upper"
+          },
+          {
+            "track": "0",
+            "observation": "0:3",
+            "camera": "3",
+            "kind": "pixel_u_lower"
+          },
+          {
+            "track": "0",
+            "observation": "0:3",
+            "camera": "3",
+            "kind": "pixel_v_upper"
+          },
+          {
+            "track": "0",
+            "observation": "0:3",
+            "camera": "3",
+            "kind": "pixel_v_lower"
+          },
+          {
+            "track": "0",
+            "observation": "0:3",
+            "camera": "3",
+            "kind": "cheirality"
+          },
+          {
+            "track": "0",
+            "observation": "0:3",
+            "camera": "3",
+            "kind": "depth_upper"
+          },
+          {
+            "track": "0",
+            "observation": "0:3",
+            "camera": "3",
+            "kind": "depth_lower"
+          },
+          {
+            "track": "0",
+            "observation": "0:4",
+            "camera": "4",
+            "kind": "pixel_u_upper"
+          },
+          {
+            "track": "0",
+            "observation": "0:4",
+            "camera": "4",
+            "kind": "pixel_u_lower"
+          },
+          {
+            "track": "0",
+            "observation": "0:4",
+            "camera": "4",
+            "kind": "pixel_v_upper"
+          },
+          {
+            "track": "0",
+            "observation": "0:4",
+            "camera": "4",
+            "kind": "pixel_v_lower"
+          },
+          {
+            "track": "0",
+            "observation": "0:4",
+            "camera": "4",
+            "kind": "cheirality"
+          },
+          {
+            "track": "0",
+            "observation": "0:4",
+            "camera": "4",
+            "kind": "depth_upper"
+          },
+          {
+            "track": "0",
+            "observation": "0:4",
+            "camera": "4",
+            "kind": "depth_lower"
+          }
+        ]
+      },
+      "certificate": {
+        "kind": "point",
+        "point": [
+          "-1106556241670933931837008786875/2414352716108015166361308233728",
+          "3196365006083431196737866808105/9657410864432060665445232934912",
+          "405323966463344625/137240062719457408"
+        ]
+      }
+    }
+  ],
+  "geometry_residual_flags": [],
+  "z_min": 0.01,
+  "measurement_status": "VERIFIED_FEASIBLE",
+  "reason": "No checked full-system contradiction; preserve predictions",
+  "conflict": null,
+  "envelopes": {},
+  "envelope_trace_checks": {},
+  "efficiency": {
+    "wall_seconds": 0.007636000023921952,
+    "cpu_seconds": 0.0,
+    "peak_rss_bytes_sampled": 98549760,
+    "rss_sampling_period_seconds": 0.02
+  },
+  "certificate_checks": [
+    true
+  ]
+}

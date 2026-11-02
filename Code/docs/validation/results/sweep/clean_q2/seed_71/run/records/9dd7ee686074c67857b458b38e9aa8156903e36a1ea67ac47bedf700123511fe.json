@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "run_signature": "dea7b9c33941b21e4383bdb14336e8f386bdbbce7b9f616bfa84b7927d9958ff",
+  "track": "7",
+  "method": "global",
+  "original_depths": {
+    "7:0": 4.5,
+    "7:1": 6.75,
+    "7:2": 4.5
+  },
+  "depths": {
+    "7:0": 4.529999265849424,
+    "7:1": 4.529999265849424,
+    "7:2": 4.529999265849424
+  },
+  "state": "CONVERGED_NUMERICALLY",
+  "status_before": "VERIFIED_CONTRADICTION",
+  "status_after": "VERIFIED_FEASIBLE",
+  "detected": [],
+  "edit_ids": [
+    "7:0",
+    "7:1",
+    "7:2"
+  ],
+  "artifacts": [],
+  "geometry_residual_flags": [],
+  "z_min": 0.01,
+  "reason": "Step tolerance; no exact optimality certificate",
+  "runtime_scope": "first_record_in_block_computes_global_solve_others_read_cache",
+  "point": [
+    0.548850842541921,
+    0.23164256255729254,
+    4.529999265849424
+  ],
+  "consistency": {
+    "reprojection_mean_px": 0.1850802587145782,
+    "depth_inconsistency_m": 0.7599997552831415,
+    "invalid_projection_fraction": 0.0
+  },
+  "efficiency": {
+    "wall_seconds": 0.004037000006064773,
+    "cpu_seconds": 0.015625,
+    "peak_rss_bytes_sampled": 92573696,
+    "rss_sampling_period_seconds": 0.02
+  },
+  "certificate_checks": []
+}

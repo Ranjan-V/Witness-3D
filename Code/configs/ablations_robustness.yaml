@@ -1,0 +1,17 @@
+base:
+  kind: synthetic
+  scene_name: robustness_ablation
+  seeds: [0, 1, 2]
+  synthetic: {tracks: 8, views: 4, baseline: 0.3, pixel_radius: 1.0, depth_bias: 1.5, biased_fraction: 0.3}
+  experiment:
+    methods: [none, ransac, robust_depth, local, local_all, global]
+    repair: {q: 0, extraction: dual, save_evidence: false}
+axes:
+  synthetic.outlier_rate: [0.0, 0.1]
+  synthetic.pose_translation_sigma: [0.0, 0.01]
+  synthetic.pose_rotation_sigma: [0.0, 0.005]
+  experiment.repair.q: [0, 1]
+  experiment.repair.extraction: [dual, deletion]
+  experiment.robust_loss: [huber, soft_l1]
+  experiment.solver.proposal_tolerance: [1.0e-9, 1.0e-6]
+

@@ -1,0 +1,9 @@
+{
+  "wall_seconds": 2.1120247000071686,
+  "cpu_seconds": 1.78125,
+  "peak_rss_bytes_sampled": 95014912,
+  "rss_sampling_period_seconds": 0.02,
+  "preexisting_record_checkpoints": 0,
+  "record_count": 72,
+  "scope": "all_selected_methods_including_shared_queries_and_io"
+}

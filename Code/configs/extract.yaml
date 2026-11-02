@@ -1,0 +1,14 @@
+seed: 0
+views: 3
+window_stride: 3
+max_features: 1500
+max_tracks_per_window: 128
+pixel_radius: 1.0
+relative_width: 0.03
+absolute_width: 0.01
+# Set from externally known scene limits in the *manifest world frame*.
+# This illustrative box is not certified to contain any real dataset scene.
+world_box:
+  lower: [-20.0, -20.0, -20.0]
+  upper: [20.0, 20.0, 20.0]
+

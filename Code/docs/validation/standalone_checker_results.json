@@ -1,0 +1,9 @@
+{
+  "record_files": 10080,
+  "arithmetic_artifacts": 11965,
+  "invalid_arithmetic_artifacts": 0,
+  "complete_envelope_traces": 3728,
+  "invalid_envelope_traces": 0,
+  "forbidden_imports_loaded": [],
+  "failures": []
+}

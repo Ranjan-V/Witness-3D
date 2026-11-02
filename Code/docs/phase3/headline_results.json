@@ -1,0 +1,12 @@
+{
+  "scenario_comparison_dlt_disagreement": {
+    "equal": 20,
+    "disagreement_better": 4,
+    "witness_better": 4
+  },
+  "replay_case_seeds": 140,
+  "stress_case_seeds": 35,
+  "stress_tracks": 420,
+  "mechanism_cases": 160,
+  "mechanism_assignment_disagreements": 0
+}

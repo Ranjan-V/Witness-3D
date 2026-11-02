@@ -1,0 +1,30 @@
+{
+  "scenarios": 28,
+  "case_seeds": 140,
+  "tracks": 1120,
+  "depths_per_method": 3360,
+  "primary_method_records": 10080,
+  "certificate_submissions": 11965,
+  "invalid_certificates": 0,
+  "envelope_traces": 3728,
+  "invalid_envelope_traces": 0,
+  "local_all": {
+    "edited_count": 882,
+    "edited_improved_count": 876,
+    "premise_eligible_count": 2585,
+    "premise_eligible_edited_count": 753,
+    "conditional_edited_harm_count": 0
+  },
+  "global_states": {
+    "CONVERGED_NUMERICALLY": 848,
+    "NONCONVERGED": 4,
+    "ABSTAINED": 268
+  },
+  "group_contradiction_vs_elastic_reference": {
+    "tp": 889,
+    "fp": 0,
+    "fn": 0,
+    "tn": 231
+  },
+  "elastic_reference_ambiguous": 0
+}
